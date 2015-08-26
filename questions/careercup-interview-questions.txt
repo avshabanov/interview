@@ -1,0 +1,3868 @@
+Given an array consisting of N Numbers. 
+Divide it into two Equal(it is important) partitions such that difference between sum of both partitions is minimum. 
+
+If number of elements are odd difference in partition size can be at most 1.
+---
+Write all solutions for a^3+b^3 = c^3 + d^3, where a, b, c, d lie between [0, 10^5] in at least O(n^2) complexity
+---
+Design a data structure which should have following operation. Insert, Delete, Random access
+Given an array consisting of N Numbers.
+Divide it into two Equal(it is important) partitions such that difference between sum of both partitions is minimum.
+
+If number of elements are odd difference in partition size can be at most 1.
+---
+The question inside the link. 
+The pictures below contain a message in a secret code. 
+You will need to program to decode this message and to discover the password. 
+
+http://tsofen2015ms.azurewebsites.net/
+---
+Write all solutions for a^3+b^3 = c^3 + d^3, where a, b, c, d lie between [0, 10^5] in at least O(n^2) complexity
+---
+Design a data structure which should have following operation. Insert, Delete, Random access
+---
+Given 2 large number A and B, create a new number C using the digits from A which needs to be grater than B. 
+e.g. A = 5281, B = 7443
+C = 8125.
+---
+Given a binary N X N matrix, return the size of the largest '+' of ones. 
+
+input:
+0 0 0 0
+1 1 0 1
+1 1 1 1
+1 1 1 0
+
+output: 
+5 
+
+(binary search is not allowed)
+---
+List of 2D points: (x1, y1), (x2, y2) … (xN, yN) - N 2D points.
+
+Each two points define a 2D line.
+
+create an algorithm which returns a list of all unique 2D lines, which you can build using pairs of points from the list.
+---
+Given n light bulbs, write two methods.
+
+isOn(i) to determine if a light bulb is on
+toggle(start, end) to toggle all the light bulbs in the range
+
+One caveat, write toggle so that it is less than O(n) complexity
+---
+Write a function called deepCopy that takes an object and creates a deep copy of it.
+
+var newObj = deepCopy(obj);
+
+(can't use JSON, can't use prototype)
+---
+I came across this problem online.
+
+> Given an integer:N and an array int arr[], you have to add some
+> elements to the array so that you can generate from 1 to N by using
+> (add) the elements in the array.
+
+Please keep in mind that you can only use each element in the array once when generating a certain x (1<=x<=N). Return the count of the least adding numbers.
+
+    For example:
+    
+    N=6, arr = [1, 3] 
+
+    1 is already in arr. 
+    
+    add 2 to the arr. 
+    
+    3 is already in arr 
+    
+    4 = 1 + 3 
+    
+    5 = 2 + 3 
+    
+    6 = 1 + 2 + 3 
+    
+    So we return 1 since we only need to add one element which is 2.
+
+Can anyone give some hints?
+---
+Check if two integers are equal without using any comparison operators.
+---
+Find how many numbers of length n are there such that each number is at least 4 smaller/greater than the number before and after it.
+
+Eg: if n = 5, such numbers are 39518, 15951, etc.
+---
+You should transform an structure of multiple tree from machine A to machine B. It is a serialization and deserialization problem, but i failed to solve it well.
+
+You could assume the struct is like this:
+---
+
+---
+
+---
+and in machine A, you will given the point to   root Node, and in machine B,you should return a pointer to root Node.
+---
+how would you design a microwave for the blind?
+---
+How would you increase Youtube revenue?
+---
+How much is Youtube Revenue
+---
+Write a program in that determines the members and parents of nested groups without using recursion.
+
+These are the requirements.
+
+1. A group can have 0 or more members.
+2. A group can be member of one or more groups
+3. A group can be member of itself.
+4. If there is a path from a group either directly or through multiple hops, then that user is considered as member of the group.
+5. A group can have users or groups as members
+
+EX: Input looks like this
+---
+
+---
+
+---
+Signature of function is:
+---
+
+---
+
+---
+You need to make sure that you take care of cycles in the graph and not go into infinite recursion.
+
+Output should look like a list of groups where a group is as follows.
+---
+
+---
+Each group object should contain all the groups it's a memberOf (directly or indirectly), all the groups that are it's members (directly or indirectly) and all users that are it's members.
+---
+Given a string representing relative path write a function which normalizes this path (i.e. replaces "..").
+Example:
+input: \a\b\..\foo.txt
+output: \a\foo.txt
+---
+You are given an array representing integer. Write a function which increments this integer.
+Example: input [1,2,3] (represents 123) -> output [1,2,4]
+---
+Given an unbalanced binary tree, write code to select a node at random (each node has an equal probability of being selected).
+---
+Find a duplicates in an array of length n. The values are positive integers in the range between 1 .. n-1
+---
+You have an array of integers. Each integer in the array should be listed three times in the array. Find the integer which does not comply to that rule.
+---
+Count triangles in an undirected graph where a triangle is a unique set of three vertices connected to one another.
+---
+In 5 minutes write a code which checks if a given number is a power of two.
+---
+Check if two given words are anagrams of each other.
+---
+Given two sorted arrays find the element which would be N-th in their merged and sorted combination.
+---
+Given a BST with unique values find in a given tree a value closest to a given value X.
+---
+How would you store the relations in a social network like Facebook and implement a feature where one user receives notifications when their friends like the same things as they do?
+---
+Design the front end of Google Calendar
+---
+Design YouTube view-counting feature
+---
+Design Google Suggest
+---
+Design Gmail backend (data storage and API)
+---
+The "surpasser" of an element in an array is defined as the number of elements that are to the "right" and  bigger than itself.
+
+Example:
+Array:
+[2, 7, 5, 5, 2, 7, 0, 8, 1] 
+The "surpassers" are 
+[5, 1, 2, 2, 2, 1, 2, 0, 0]
+
+Question: Find the maximum surpasser of the array.
+
+In this example, maximum surpasser = 5
+---
+Find the longest common prefix in a list of phrases. For instance; "i love all dogs", "i love cats" should return "i love".
+---
+Given a binary tree, implement an iterator that will iterate through its elements.
+---
+You are given four integers 'a', 'b', 'y' and 'x', where 'x' can only be either zero or one. Your task is as follows:
+
+If 'x' is zero assign value 'a' to the variable 'y', if 'x' is one assign value 'b' to the variable 'y'.
+
+You are not allowed to use any conditional operator (including ternary operator). 
+Follow up: Solve the problem without utilizing arithmetic operators '+  - * /'.
+---
+Given a List of Strings, return the number of sets of anagrams.
+
+For instance, given:
+
+<abc,cab,dac,beed,deb,few,acd>
+
+return 5
+---
+Design a cache module for an image server. The server accepts image requests from users and sends them back the images. The cache should always hold in-memory the 10 most recently requested images. The cache should also support multiple requests simultaneously
+---
+Design an application which sends the user the 10 closest hotels based on his geo location.
+When i asked roughly how many hotels in total are we talking about, i was asked to estimate how many hotels are there in the world...
+---
+You are given 2 documents. We want to know how similar they are through N-Grams. 
+
+Given an input n (n = number of word in the Ngram) and two documents(strings) find the intersection of the  NGrams of two document. 
+
+E.g doc1 = 'This is a dog'
+       doc2 = 'This is a cat'
+n = 3
+Ngrams for doc1 = 'This is a', 'is a dog'
+Ngrams for doc2 = 'This is a', 'is a cat'
+
+Output 'This is a'
+
+Find a efficient way and give its complexity.
+---
+std C library has pow(x, n) function - implement that function
+---
+Given a sorted array and n, find the count of sum of 2 numbers greater than or equal to n
+---
+Given a max-heap represented as an array, return the kth largest element without modifying the heap. I was asked to do it in linear time, but was told it can be done in log time.
+---
+Given a sorted array, find a way to find the # of occurrence of a number
+ for eg: [1, 1, 2, 3, 3, 3, 4, 5]
+ find # of occurrence of 3 in time better than O(n)
+---
+Given a range of floats, find the range of size 1 with max num of elements
+ 
+ for eg: [-13.7, -14.5, -12.3, -12.5, -12.9]
+ one possible answer: [-12.3, -13.3]
+---
+Description
+
+A prospective CS student is investigating how many semesters it will take to graduate from a variety of different universities. Each university provides a list of required courses, their prerequisites, and when each course is offered. Given this information, determine the minimum number of semesters to graduate.
+
+Consider the following example. A student is required to take 4 courses, mt42, cs123, cs456, and cs789. mt42 is only offered in the fall semester and has no prerequisites. Similarly, cs123 is only offered in the spring semester and has no prerequisites. cs456 is only offered in the spring semester and has both cs123 and mt42 as prerequisites. Finally, cs789 is offered in both fall and spring and has cs456 as its only prerequisite. The shortest time to graduate is 5 semesters, by taking mt42 in the fall, cs123 in the next spring, cs456 the following spring (since it is not offered in the fall) and finally cs789 the following fall.
+
+For this problem, there are only two semesters, fall and spring. Always start counting semesters from the fall.
+
+In addition to the fall/spring scheduling issues, there is one slight complication. In order to keep the dormitories full, each university limits the number of courses that can be taken in any semester. This limit appears as part of the input data. The third example below illustrates this issue.
+
+Input
+
+There are one to twenty-five data sets, followed by a final line containing only the integers -1 -1. A data set starts with a line containing two positive integers n, 1 <= n <= 12, which is the number of courses in this data set and m, 2 <= m <= 6, which is the maximum number of courses that can be taken in any single semester. The next line contains the n course identifiers. Each is a 1-5 character string from the set {a-z, 0-9}. Following the course identifiers is the individual course information. This consists of n lines, one line for each course, containing the course identifier, semester offered ('F'=Fall, 'S'=Spring, 'B'=Both semesters), the number of prerequisite courses, p, 0 <= p <= 5, and finally p prerequisite course identifiers. The first example data set below corresponds to the problem described above.
+
+Output
+
+The output contains one line for each data set, formatted as shown in the sample output.
+
+Sample Input
+
+4 6
+cs123 mt42 cs456 cs789
+mt42 F 0
+cs123 S 0
+cs456 S 2 cs123 mt42
+cs789 B 1 cs456
+3 6
+math1 comp2 comp3
+comp3 S 1 comp2
+math1 S 0
+comp2 F 1 math1
+4 3
+m10 m20 c33 c44
+m10 B 0
+m20 B 0
+c33 B 0
+c44 B 0
+-1 -1
+Sample Output
+
+The minimum number of semesters required to graduate is 5.
+The minimum number of semesters required to graduate is 4.
+The minimum number of semesters required to graduate is 2.
+---
+Given an array and is rotated n number of times find the number where the peak happens. The array is sorted in increasing order. Follow up question: how will you rearrange them in normal sorted order.
+---
+You are given two streams 's_a' and 's_b' of digits. Each stream represents an integer 'a' and 'b' from its less significant digit to the most significant digit. For example, integer 2048 is represented in the stream as 8, 4, 0, 2.
+
+Write a function that subtract two integers 'a - b' and returns the result as a string. You are not allowed to buffer entire 'a' or 'b' into a single string, i.e. you may access only a single digit per stream at time (imagine that 'a' and 'b' are stored in huge files). You may assume that 'a>=b'.
+
+Example:
+s_a:   8 4 0 2
+s_b:   4 2 0 1
+
+result: '1024'
+---
+<Error>
+---
+i18n (where 18 stands for the number of letters between the first i and the last n in the word “internationalization,”) Wiki it.
+
+Generate all such possible i18n strings for any given string. for eg. "careercup"=>"c7p","ca6p","c6up","car5p","ca5up","care4p","car4up","caree3p","care3up"..till the count is 0 which means its the complete string again.
+---
+Given an bunch of airline tickets with [from, to], for example [MUC, LHR], [CDG, MUC], [SFO, SJC], [LHR, SFO], please reconstruct the itinerary in order,
+ for example: [ CDG, MUC, LHR, SFO, SJC ].
+//tickets can be represented as nodes
+---
+If a canoe can hold 2 kids and a max weight of 150 lbs, write a function that returns the minimum number of canoes needed, given a list of kids and their weights.
+---
+Given a list of queries and their counts, write a function that returns one of the queries at random such that over time it returns an equal distribution based on the counts provided in the input.
+---
+You are given a list of word. Find if two words can be joined to-gather to form a palindrome. eg Consider a list {bat, tab, cat} Then bat and tab can be joined to gather to form a palindrome. 
+
+Expecting a O(nk) solution where n = number of works and k is length
+
+There can be multiple pairs
+---
+Write a function which, given two integers (a numerator and a denominator), print the first N digits of a rational number. For example, for 5 / 3 with N=5, the result should be "1.66666". N=2: 1.66
+---
+you have a stream of bytes (1010101101011110100010......)to send over the net. but if you compress it. you will be charged less for less data usage. please try to compress it in a way that you can decompress at other end ahd you dont loss data
+---
+0 1 ?
+? wildcard for 0 or 1
+
+"01?"
+010 011
+
+Example:
+01?0?
+Will produce
+01000
+01100
+01001
+01101
+---
+In a Formula-1 challenge, there are n teams numbered 1 to n. Each team has a car and a driver. Car’s specification are as follows:
+
+– Top speed: (150 + 10 * i) km per hour
+– Acceleration: (2 * i) meter per second square.
+– Handling factor (hf) = 0.8
+– Nitro : Increases the speed to double or top speed, whichever is less. Can be used only once.
+
+Here i is the team number.
+The cars line up for the race. The start line for (i + 1)th car is 200 * i meters behind the ith car.
+
+All of them start at the same time and try to attain their top speed. A re-assessment of the positions is done every 2 seconds(So even if the car has crossed the finish line in between, you’ll get to know after 2 seconds). During this assessment, each driver checks if there is any car within 10 meters of his car, his speed reduces to: hf * (speed at that moment). Also, if the driver notices that he is the last one on the race, he uses ‘nitro’.
+
+Taking the number of teams and length of track as the input, Calculate the final speeds and the corresponding completion times.
+---
+Look at the sequence below:
+1, 11, 21, 1211, 111221, 312211, ...
+
+Write a code that receives n and returns the nth element of the sequence. If it gets 4 as input of the method it should return 1211.
+---
+The text of question below is exactly given by Google interviewer. So they are owner of the text  and I am just quoting them. I am not the author of the text below:
+
+"
+Imagine a museum floor that looks like this:
+
+.#.G.
+..#..
+G....
+..#..
+
+G == Museum Guard
+# == obstruction/impassable obstacle
+. == empty space
+
+Write a piece of code that will find the nearest guard for each open floor space. Diagonal moves are not allowed.  The output should convey this information:
+
+2#1G1
+12#12
+G1223
+12#34
+
+You may choose how you want to receive the input and output. For example, you may use a 2-d array, as depicted here, or you may use a list of points with features, if you deem that easier to work with, as long as the same information is conveyed.
+---
+Given two binary trees ( not BST) ,   return true if both of them have same inorder  else return false.
+Eg.
+---
+
+---
+
+---
+
+---
+
+---
+Both of the trees have  same inorder ( A-B-C) hence function will return true
+
+P.S.
+  Please note, we can write inorder method call it once for first tree and then second tree,  and finally compare both inorder. 
+
+We want to parallely do inorder on both tree, if there is mismatch between inorder nodes of both trees, we can stop the traversal and return false
+---
+Given a Binary search tree of integer values. return the count of nodes where all the nodes under that sub-tree lies between a given range [x, y]. assume there are more than 100,000 nodes
+---
+Bring up as many approaches: Your goal is to make faster web browser for phones. You can change the phones, the data center etc. There's a limited network bandwidth and the browsers from the companies can't be altered.
+---
+We've got Quad-trees making up a screen. Every box of the Quad-tree has either color white or black. How would you design the data structure of this Quad-tree? 
+
+And how would you count the number of pixels in a screen of a given color, given a Quad-tree?
+---
+
+---
+
+---
+i used bool to specify white/black.
+---
+write a function:
+---
+
+---
+
+---
+and then write another function:
+---
+
+---
+
+---
+Then the more difficult question was how I'd reverse this. 
+Implement function:
+---
+
+---
+
+---
+h3e -> {house, halle, hocke....}
+---
+Started out with simple question - to get warmed up: 
+Implement a function:
+---
+
+---
+
+---
+Ex: house -> h3e, marcus -> m3s
+---
+You are given 4 integer numbers. Using each number once and only once with any operators from +, -, *, /, (, ), build an expression that evaluates to 24.
+---
+Write a method that combines an array of iterators into a new one, such that, e.g. for input [A B C] where:
+A.next() returns a1, a2, respectively;
+B.next() returns b1;
+C.next() returns c1, c2, c3, respectively;
+
+The new iterator will return elements in this order: a1 b1 c1 a2 c2 c3.
+---
+Simplify the implementation below as much as you can.
+Even better if you can also improve performance as part of the simplification!
+FYI: This code is over 35 lines and over 300 tokens, but it can be written in
+5 lines and in less than 60 tokens.
+קוד: בחר הכל
+static int func(String s, char a, char b)
+{
+   if (s.isEmpty()) return -1;
+   
+   char[] strArray = string.toCharArray();
+
+   int i=0;
+   int aIndex=0;
+   int bIndex=0;
+   while (aIndex=0 && bIndex==0 && i<strArray.length)
+   {
+       if (strArray[i] == a)
+           aIndex=i;
+       if (strArray[i] == b)
+           bIndex=i;
+       i++;
+   }
+
+   
+   if (aIndex != 0)
+   {
+       if (bIndex == 0)
+           return aIndex;
+       else
+           return Math.min(a, b);
+   }
+   else
+   {
+       if (bIndex != 0)
+           return bIndex;
+       else
+           return -1;
+   }
+}
+---
+Given 1 byte. Write a function that checks that it  have exactly 3 bits which equal to  1.
+---
+Write a function 
+  bool fancy_shuffle(char* s);
+
+which rearranges characters in the string given as input, in such a way that no same character occurs twice in a row (that is, next to each other).
+If such rearrangement is not possible, the function should return false.
+---
+Given an array of numbers, find a pair whose sum is closest to zero.
+---
+You are given a log of wood of length `n’. There are `m’ markings on the log. The log must be cut at each of the marking. The cost of cutting is equal to the length of the log that is being cut. Given such a log, determine the least cost of cutting.
+---
+Design an optimised algorithm to solve snakes and ladders with the least amount of roles possible under the assumption that you get whatever role you want when you role the dice.
+---
+Given an unsorted array of natural numbers. Where numbers repeat in array. Out put numbers in the order of frequency. Where number of out put is passed as parameter.
+For Ex:
+Array -> [0, 0, 100, 3, 5, 4, 6, 4, 2, 100, 2, 100]
+n -> 2
+Out put -> [100, 0] or [100, 2]
+Since 100 is repeated 3 times and 0, 2 is repeated 2 times, out put up to 2 most frequent elements, program should out put either 100, 0 or 100, 2
+---
+This is a two part question related to Markov string generation.
+
+Part 1: Read a training set of strings. For each character in any of the strings, calculate the probability of seeing that character and store it for later use. (this part is about coming up with the right data structure and correct probability calculation).
+
+Part 2: Based on the training set from Part 1, generate a random string of length N.
+---
+Given an API ReadFromDisk() which returns a block of 256 bytes from disk. Implement the API Read(SizeInBytes) which reads SizeInBytes bytes from the disk by calling only ReadFromDisk. Notice that every call to ReadFromDisk() will read the next 256 bytes from disk.
+---
+Given an API ReadFromDisk() which returns a block of 256 bytes from disk. Implement the API ReadEx(SizeInBytes) which reads SizeInBytes bytes from the disk by calling only ReadFromDisk. Notice that every call to ReadFromDisk() will read the next 256 bytes from disk.
+---
+You are given printouts from an algorithm which ran over an unsorted binary tree. One printout is from an in-order run and another from a pre-order run. Can you reconstruct the tree? If so, then write an algorithm.
+---
+You are given printouts from an algorithm which ran over a sorted binary tree. One printout is from an in-order run and another from a pre-order run. Can you reconstruct the tree? If so, then write an algorithm.
+---
+You have N points on a 2D surface. List K points at a shortest distance to the point (0, 0).
+---
+There is a company with 250 employees. Its records contain: EmployeeID, ManagerID (which is a reference to the EmployeeID of the manager).
+
+Part 1. List directly reporting employees for a given ID
+
+Part 2. List all (also indirectly) reporting employees to a given ID
+---
+Assume we only take the least significant digit of each value in fibonacci sequence, and form the sequence of digits into pairs. In those pairs, the first value of one pair is the same as second value of its predecessor.
+
+As we know the fibonacci sequence is 1, 1, 2, 3, 5, 8, 13, 21... 
+so the pair sequence is:
+[1, 1], [1, 2], [2, 3], [3, 5], [5, 8], [8, 3], [3, 1] ...
+
+Write a function to output the first n pairs of this sequence.
+void Outputpairs(int n)
+---
+You are given a monochrome bitmap as a byte array (together with its width and height). Draw a horizontal line.
+---
+Part 1: You are given a computer #1 with array Foo, a computer #2 with array Bar and a spare computer #3. You need to apply a function F to corresponding/matching elements of the two arrays. How would you do that?
+
+Part 2: Once you scale up, how would you balance the number of machines sorting with the machines applying the function?
+
+Part 3: What if the master (which is distributing the work) dies and never recovers?
+---
+Print all the different possible subsets suming the given number
+Ex:
+Input:4
+Output: 
+1111
+112
+121
+112
+13
+31
+---
+You are given two strings. String T is a string where characters need to be reordered. String O contains characters (none of them repeated) which defines the order/precendence to be used while reordering the string T. Write an algorithm to do the reordering.
+
+*** SPOILER ALERT ***
+
+The question was pusposefully underspecified - upon questioning it was revealed that the string O might not necessarily include all characters used in string T - the characters not included in string O are supposed to be placed at the beginning of the resulting string (in no particular order).
+---
+You are given two arrays - A & B. The length of the arrays is the same - N. The values in the arrays are integers from 0 to N - 1 in random order and no number is repeated. You need to list a sequence of two-element swaps required to reorder the array A into the order of the array B. Additionally, at each step of the sequence you are allowed to swap two elements only if one of them is 0.
+---
+Given an array Of integers build a new array of integers such that every 2nd element of the array is greater than its left and right element. 
+
+eg: 
+[1,4,5,2,3]
+
+o/p:
+[1,4,2,5,3]
+
+Soln proposed:
+
+Step 1:Sort The array -> O(nlogn)
+Step 2:Use 2 indices: one starting at leftmost index and other at rightmost index. 
+and populate the new array alterntely using the left pointer(index) first and then the right pointer and then increment the pointer used. till both the pointers meet/cross each other. -> O(n).
+---
+Problem Statement
+
+Diameter
+
+The diameter of a graph is the maximum shortest path between any two nodes.
+
+At the beginning, there is a simple grpah contains exactly 1 node. Then we add new nodes one by one to the graph. Each time when we add a new node to the graph, we also add exactly one edge to connect this node to another node which already exists.
+
+We want to find the diameter of the graph each time we add a new node. Note that each edge cost 1.
+
+Input Format:
+
+First line of the input contains one integer N, indicating how many new nodes we will add.
+
+Then following N lines. The ith line contains an integer X, which means we add the ith node and an edge connecting the Xth node and ith node.
+
+The original node is the 0th node.
+
+Output Format:
+
+Output N lines. The ith line is an integer indicating the diameter of the graph after adding the ith node.
+
+Constraints:
+
+0 < N <= 100000
+
+0 <= Xi < i
+
+i is counting from 1
+
+Sample Input:
+
+5
+
+0
+
+0
+
+1
+
+1
+
+1
+
+Sample Output:
+
+1
+
+2
+
+3
+
+3
+
+3
+
+Explanation:
+
+Firstly the graph contains only node 0. The first line of output is 1 because the diameter becomes 1 when node 1 is added and connected to node 0. Diameter becomes 2 after adding node 2 to node 0. Then adding node 3, 4, 5, all of them are connecting to node 1, caculate the shortest path of all pairs of nodes, the maximum shortest path is 3, so the last 3 lines of output are all 3.
+---
+Write algorthim to determine the total time to make ice cream and when it leaves the store. 
+
+Consist of an order time, order number, and ice cream type.
+“ice cream Type” is an integer: 0 for combo, 1 for vanilla.  Order numbers are increasing.
+
+We have three machines for making ice creams.
+
+It takes 45 seconds to make a combo ice cream and 15 for vanilla. Can only make one ice cream at a time.
+
+Need to determine total time to make ice cream and time the ice cream leaves the store (delivered).
+
+In: order_time,order_num,ice_cream_type
+Out: order_num,depart_time,total_time
+---
+Given a number "n", find the least number of perfect square numbers sum needed to get "n"
+
+Example: 
+n=12, return 3 (4 + 4 + 4) = (2^2 + 2^2 + 2^2) NOT (3^2 + 1 + 1 + 1)
+n = 6, return 3 (4 + 1 + 1) = (2^2 + 1^2 + 1^2)
+---
+Find longest substring with "m" unique characters in a given string.
+
+input: aabacbeabbed
+output: 
+4 (aaba) for 2 unique characters
+6 (aabacb) for 3 unique characters
+---
+You are given heights of n candles . 
+First day you lit one candle  
+second day you need to lit two candles 
+Third day you need to lit three candles
+..........
+........
+till possible.
+After lighting candles the height of candles deduced by 1 each day.You can also extinguish any candle you want but only at the end of day.
+So you need to tell the maximum number number of days , you can carry on lighting the candles.
+Example : there are three candles of heights {2 , 2 ,2 }
+Answer : 3
+1.You light first candle on day one.  heights -> {1,2,2}
+2.You light second and third and extinguish first one .  heights ->{1, 1,1}
+3.You light all the candles.  heights -{0,0,0}
+---
+Write a function that takes an integer as input and produces an output string.
+
+Some sample Input/outputs are as follows
+
+i/p o/p
+1 - A         
+2 - B
+3 - AA
+4 - AB
+5 - BA
+6 - BB
+7 - AAA
+8 - AAB
+9 - ABA
+10 - ABB
+11 - BAA
+12 - BAB
+13 - BBA
+14 - BBB
+15 - AAAA
+---
+Consider a social network graph like facebook. You are throwing a party and want to invite some of your friends. Design a algorithm to select top n friends from m friends using the social graph.
+---
+How would you optimize an elevator system for a building with 50 floors and 4 elevators ? Optimize in terms of lowest wait times for the users. Nothing related to power consumption.
+---
+Given the requirements of http://www.careercup.com/question?id=5769432498438144, implement the same task scheduler with parallel task execution.
+---
+Given the interface below, implement a task scheduler.
+---
+
+---
+
+---
+Additionally, the task scheduler should follow two rules.
+
+1. Each task may only be executed once.
+2. The dependencies of a task should be executed before the task itself.
+---
+Create a maze.
+---
+Play Scrabble. You have 7 letters to start from. Build the word with the highest score.
+---
+
+---
+
+---
+Given an array A[1...N] of positive integers, you have to sort it in ascending order in the following manner : In every operation, select any 2 non-overlapping sub-arrays of equal length and swap them. i.e, select two sub-arrays A[i...(i+k-1)] and A[j...(j+k-1)] such that i+k-1< j and swap A[i] with A[j], A[i+1] with A[j+1] ... and A[i+k-1] with A[j+k-1].
+
+**Example:**
+For n=6
+6 7 8 1 2 3
+Only one operation is needed as after swapping (6 7 8) and (1 2 3 ) sub arrays
+we can get 1 2 3 6 7 8 , that is sorted.
+How can we figure out minimum number of swaps in most effective way ?
+---
+Find popular item in sorted array of natural numbers.
+An item is popular is if its repeated n/4 times or more.
+For Ex:
+Input: 123444445678
+Popular item is 4.
+
+Liner scan is O(n), but solution needs to be in O(logN) complexity and O(1) space complexity.
+---
+You are given an unsorted sequence of integers 'a'. Find the longest subsequence 'b' such that elements of this subsequence are strictly increasing numbers. Elements in the subsequence 'b' must appear in the same relative order as in the sequence 'a'. You may assume that 'a' can fit to the memory.
+
+Example:
+input:    a = [-1 2 100 100 101 3 4 5 -7]
+output:  b = [-1 2 3 4 5]
+---
+Consider the 52 cards of a deck. You generated a random sequence for these cards and want to send that sequence to a receiver. You want to minimize the communication between you and the receiver, i.e., minimize the number of bits required to send the sequence.
+
+What is the minimum number of bits required to send the sequence?
+Hint: It is not 6 x 52
+---
+On a table there are four papers, one with the letter X written on top, one with the letter Y written on top, one with the number 1 written on top, and one with the number 2 written on top. Every paper has one of those letters on one side and one of those numbers on the other side. To prove that a paper with the letter x contains even number on the other side, what is the minimum number of conditions we have to check?
+---
+How would you get all of the unique IDs out of a single file? What if it was a very large file?
+---
+Write a function that takes an array of numbers and returns the maximum and minimum values.
+
+Give BigO for runtime.
+
+(This is a basic coding question. There are no real tricks or shortcuts.)
+---
+Write a function that would print all positive numbers smaller than n that can be expressed as the sum of two cubes in two different ways. Bonus: calculate the complexity of that function.
+
+For example, 1729 is one such number because 1729 = 1^3 + 12^3 = 9^3 + 10^3.
+---
+Write code that would parse an expression that is similar to BASH brace expansion. Best illustrated with an example: the expression "(a,b,cy)n,m" would be parsed into an array of the following strings:
+an
+bn
+cyn
+m
+
+You can assume that the input will always be valid.
+
+Hint: the expression can nest. Therefore, "((a,b)o(m,n)p,b)" parses into:
+aomp
+aonp
+bomp
+bonp
+b
+---
+From a list of integer intervals, write a function to minimize the number of overlapping or consecutive ones. 
+
+Test Input: [4, 8], [3, 5], [-1 2], [10, 12]
+Test ouput: [-1, 8], [10,12]
+---
+Suppose you are in the middle of Africa, each machine is on an Edge network, and each packet between the machines costs $1.00. Write a solution that minimizes the cost.
+---
+You given and instruction called DBNZ ( Decrement and Branch if Not Zero) 
+which can be used as "DBNZ X L10". 
+This instruction decrement X by one and checks X, if X is not zero than branches line 10, 
+if it is zero than continue to next instructions.
+
+By using DBNZ instruction implement CLEAR instruction.
+CLEAR can be used as "CLEAR X" which means set X to zero.
+
+By using DBNZ and CLEAR instructions implement NEGATE instruction
+NEGATE can be used as "NEGATE X Y" which means set Y to negative of X ( Y = -X)
+---
+write an algorithm to find sum of numbers which are smaller than N and divisible by 3 or 5
+
+Example:
+N = 9 => 3 + 5 + 6 = 14
+N = 10 => 3 + 5 + 6 + 9 = 23
+---
+design and implement a calculater that can calculate expressions like:
++ 2 4 
+* 8 ( + 7 12)
+( + 7 ( * 8 12 ) ( * 2 (+ 9 4) 7 ) 3 )
+
+(PS:all items are space delimetered.)
+
+Example answers
++ 2 4 => 2 + 4 = 6
+* 8 ( + 7 12) => 8 * ( 7 + 12 ) = 152
+( + 7 ( * 8 12 ) ( * 2 (+ 9 4) 7 ) 3 ) => 7+8*12+2*(9+4)*7+3 = 148
+---
+there are numbers in between 0-9999999999 (10-digits) which are assigened someone (does not matter which number assigned who)
+
+Write two methods called "getNumber" and "requestNumber" as follows
+Number getNumber();
+boolean requestNumber(Number number);
+
+getNumber method should find out a number that did not assigened than marks it as assiged and  return that number.
+
+requestNumber method checks the number is assigened or not. If it is assigened returns false, else marks it as assiged and return true.
+
+design a data sturucture to keep those numbers and implement those methods
+---
+design a video thumb up/down system at youtube scale. how to concurrent read/write, persistence, store, update....etc.
+---
+Warm-up question: Write a function that prints all ASCII characters. You are not allowed to use for/while loop.
+---
+1.  qaz is a value for a number where this number is less than the other next values which have indexes larger than the index of this number.
+  for example: 33 , 25 , 26 , 58 , 41 , 59 -> qaz of (33) = 3 where 33 less than 3 numbers  (58 , 41 , 59), qaz of (25) = 4 and not 5 because the index of 33 is less than the index  of 25, qaz of (26) = 3 , qaz of (58) = 1 , qaz of (41) = 1 , qaz of (59) = 0.
+  the question is to find the max qaz. 
+  it can be solved simply using 2 loops which takes time of O(n^2).
+that's ok but how can we solve this problem in O(nlogn).
+I have an approach and know the algorithm I got during the interview but it take a 40 of me to find it and write the code, but it was hard to think about it during the interview in that way.
+I want to know if somebody can think and write the code in less than 20 minutes !!!
+---
+Write a function that receives a stream of pairs: id (some unique integer) + weight (positive real number).
+The stream ends with the special pair {0,0}.
+The function should return one the unique ids at random, with probability proportional to its weight (compared to the total weights sum when stream has ended).
+Stream size and weights sum are unknown in advance, and you are allowed O(1) memory consumption.
+
+Example: If this was the stream: {1,2},{2,2},{3,4},{4,10}, then id 2 would be returned with probability 1/9.
+---
+Write a class that receives in the constructor a vector of strings representing a browser history (URLs), and a method for "auto-complete":
+The method that receives a string representing a partial URL typed by the user and returns a vector of all possible completions of this partial URL (prefix).
+---
+You are given a binary search tree and a positive integer K. Return the K-th element of the tree.
+No pre-processing or modifying of the tree is allowed.
+---
+You are given an array of distinct numbers. You need to return an index to a "local minimum" element, which is defined as an element that is smaller than both its adjacent elements. In the case of the array edges, the condition is reduced to one adjacent element.
+Reach a solution with better time complexity than the trivial solution of O(n).
+
+If there are multiple "local minimums", returning any one of them is fine.
+---
+You are given a positive integer number N. Return the minimum number K, such that N can be represented as K integer squares.
+Examples:
+9 --> 1 (9 = 3^2)
+8 --> 2 (8 = 4^2 + 4^2)
+15 --> 4 (15 = 3^2 + 2^2 + 1^2 + 1^2)
+First reach a solution without any assumptions, then you can improve it using this mathematical lemma: For any positive integer N, there is at least one representation of N as 4 or less squares.
+---
+You are given a double linked list and an array of pointers to elements in this list (no assumptions can be made on the array - number of pointers, order and duplicates allowed).
+Return the number of sequences of elements (groups of consecutive elements), pointed by the array.
+
+For example, if this is the array (number relates to index in the list, not the actual pointer value): 9,1,3,7,8,5,2.
+Then output is 3, representing these sequences: [1,2,3], [5], [7,8,9]
+---
+2D matrix with 0s and 1s. Try to find out how many countries in this matrix?
+
+For example:
+[[1,1,1,0]
+ [1,1,0,0]
+ [0,0,0,1]]
+return 3, because one for 1s, one for 0s, and one for the last one.
+
+another example:
+[[1,1,1,1]
+ [0,0,0,0]
+ [1,0,0,1]]
+return 4
+---
+A book contains with pages numbered from 1 - N. Imagine now that you concatenate all page numbers in the book such that you obtain a sequence of numbers which can be represented as a string.  You can compute number of occurences 'k' of certain digit 'd' in this string. 
+
+For example, let N=12, d=1, hence
+
+s = '123456789101112'  => k=5
+
+since digit '1' occure five times in that string.
+
+Problem: Write a method that, given a digit 'd' and number of its occurences 'k', returns a number of pages N. More precisely, return a lower and upper bound of this number N.
+
+Example:
+input: d=4, k=1;
+output {4, 13} - the book has 4-14 pages
+
+input d=4 k=0;
+output {1, 3}  - the book has 1-3 pages
+---
+You are given a String of number characters (S), like the following for example:
+
+"132493820173849029382910382"
+
+Now, let's assume we tie letters to numbers in order such that:
+
+A = "0"
+B = "1"
+C = "2"
+...
+M = "12"
+N = "13"
+...
+Y = "24"
+Z = "25"
+
+Write an algorithm to determine how many strings of letters we can make with S, by converting from numbers to letters.
+---
+you have experience with a 3x3 Sudoku.Think about 2*2 sudoku:
+
+The array has 4 rows and 4 columns.
+The numbers 1, 2, 3 and 4, each appears exactly once in each row.
+The numbers 1, 2, 3 and 4, each appears exactly once in each column.
+The numbers 1, 2, 3 and 4, each appears exactly once in the 2x2 square formed by the intersection of rows 1, 2 and columns 1, 2.
+The numbers 1, 2, 3 and 4, each appears exactly once in the 2x2 square formed by the intersection of rows 1, 2 and columns 3, 4.
+The numbers 1, 2, 3 and 4, each appears exactly once in the 2x2 square formed by the intersection of rows 3, 4 and columns 1, 2.
+The numbers 1, 2, 3 and 4, each appears exactly once in the 2x2 square formed by the intersection of rows 3, 4 and columns 3, 4.
+Your task is:
+ 1. Count all possible different solutions of the 2*2 sudoku.
+ 2.Print all solutions.
+ 3.Store all solutions.
+---
+You are given an array of integers 'a' that can fit in a memory. Write a method that retuns an array of the same lenght such that each element 'i' of this array is a sum of 'a' except the element a[i]. You are not allowed to use '-' operator.
+---
+Given two binary trees, A and B, 
+we can define A as a subset of B if the root of A exists in B and if we can superimpose A on B at that location without changing B. (That is, the subtrees from the root of A and the node in B that is the same as the root of A are the same),
+
+Example:
+
+A:
+
+  5
+4   7
+
+B:
+      6
+  5       12
+4   7   8   10
+
+A is a subset of B in this case.
+
+B1:
+      6
+  5       12
+4   7   8   10
+1
+
+A is still a subset of B1, even though B1 extends one more level than A.
+
+Write an algorithm to determine if one tree is a subset of another tree
+---
+Given a sorted doubly linked list, write an algorithm to convert this list into a binary search tree (BST). The BST will be used to represent a set. You may expect that client will use it to search for presence of a key in the set.
+You may assume that you are given the following Node implementation  that you can not exted or modify:
+---
+
+---
+
+---
+You algorithm is not allowed to create any other instance of the Node.
+---
+You are given a string 's' and you are given a dictionary of english words. You goal is to write an algorithm that returns all words from the dictionary the can be formed by characters from that string 's'.
+
+Example:
+s = "ogeg"
+following words can be formed from 's': go egg  ego . . .
+
+Further it is given that string 's' always consists of four lower case characters. Lets say that the dictionary is contained in a file and can be fitted in the memory. It is up to you which data structure you use to represent the dictionary.
+
+How would you design an efficient algorithm? Follow up: What if the dictionary file can not be fitted in the memory?
+---
+Given a table of [Url, Content] pairs produce a new table of [Url, Set of duplicate Urls].
+
+Example Input:
+a.com => <html>a</html>
+b.com => <html>b</html>
+c.com => <html>c</html>
+d.com => <html>a</html>
+e.com => <html>a</html>
+
+Example Output:
+a.com => [d.com, e.com]
+b.com => []
+c.com => []
+---
+Given a binary search tree (BST), write a mehtod that will convert this BST into a doubly linked list that is sorted (ascending or descending order) and returns the first element in this list.  You may assume you are given following Node class:
+---
+
+---
+
+---
+Example: The following BST
+  G
+  / \
+       A T
+can be converted into a list 
+A = G = T
+
+Do it in place! Hnce the memory complexity of your algorithm shoul be O(1).
+---
+How can I represent the following in a data structure ?
+<html><body><div><span>TEXT1</span><br/></div></body></html>
+
+Do I do the same using a stack or create a tree for the same ?
+---
+Design an algo to decide if the GO game is over. i.e.
+Given a boolean matrix, write a code to find if an island of 0's is completely surrounded by 1's.
+---
+The latest reality show has hit the TV: “Cat vs. Dog”. In this show, a bunch of cats and dogs compete for the very prestigious Best Pet Ever title. In each episode, the cats and dogs get to show themselves off, after which the viewers vote on which pets should stay and which should be forced to leave the show.
+Each viewer gets to cast a vote on two things: one pet which should be kept on the show, and one pet which should be thrown out. Also, based on the universal fact that everyone is either a cat lover (i.e. a dog hater) or a dog lover (i.e. a cat hater), it has been decided that each vote must name exactly one cat and exactly one dog.
+Ingenious as they are, the producers have decided to use an advancement procedure which guarantees that as many viewers as possible will continue watching the show: the pets that get to stay will be chosen so as to maximize the number of viewers who get both their opinions satisfied. Write a program to calculate this maximum number of viewers.
+
+
+Input
+
+On the first line one positive number: the number of testcases, at most 100. After that per testcase:
+One line with three integers c, d, v (1 ≤ c, d ≤ 100 and 0 ≤ v ≤ 500): the number of cats, dogs, and voters.
+
+v lines with two pet identifiers each. The first is the pet that this voter wants to keep, the second is the pet that this voter wants to throw out. A pet identifier starts with one of the characters ‘C’ or ‘D’, indicating whether the pet is a cat or dog, respectively. The remaining part of the identifier is an integer giving the number of the pet (between 1 and c for cats, and between 1 and d for dogs). So for instance, “D42” indicates dog number 42.
+
+Output
+
+Per testcase:
+One line with the maximum possible number of satisfied voters for the show.
+
+Sample Input 1
+
+2 
+1 1 2 
+C1 D1 
+D1 C1 
+1 2 4 
+C1 D1 
+C1 D1 
+C1 D2 
+D2 C1
+
+  
+Sample Output 1
+  
+1 
+3
+---
+given a vector of integers, v[i] represent the stock price on day i. Now you may do at most K transactions. you must sell your stock before you buy it again and that means you can NOT have two stocks at the same time. write a program to find max profit you can get.
+---
+There is a code with a runtime error. We add printf to display the value of a variable and we don't get the runtime error anymore. explain what the reason can be.
+---
+Given an integer array, adjust each integers so that the difference of every adjcent integers are not greater than a given number target.
+
+If the array before adjustment is A, the array after adjustment is B, you should minimize the sum of |A[i]-B[i]| 
+
+
+You can assume each number in the array is a positive integer and not greater than 100
+
+
+Given [1,4,2,3] and target=1, one of the solutions is [2,3,2,3], the adjustment cost is 2 and it's minimal. Return 2.
+---
+Given n number of legacy services with user data<userid, info, date> 
+Design an API to return user data in a given date range, it should collect data from each service and merge and return the data sorted by date.
+---
+Given a set of busy time intervals of two people as in a calendar, find the free time intervals of both the people so as to arrange a new meeting
+input: increasing sequence of pair of numbers
+per1: (1,5) (10, 14) (19,20) (27,30)
+per2: (3,5) (12,15) (18, 21) (23, 24)
+ouput: (6,9) (16,17) (22,22) (25,26)
+---
+Question was "Given a pattern and a string input - find if the string follows the same pattern and return 0 or 1.
+Examples:
+1) Pattern : "abba", input: "redbluebluered" should return 1.
+2) Pattern: "aaaa", input: "asdasdasdasd" should return 1.
+3) Pattern: "aabb", input: "xyzabcxzyabc" should return 0.
+
+
+I can think of a brute-force solution for this question where we add the character in the pattern and n length of the string to a hashmap and recurse over the pattern array and string. But is there anything more efficient? This was a pretty difficult question in my opinion.
+---
+
+---
+
+---
+What is the maximum number of edges you could add to n vertexes to make a acyclic undirected graph?
+
+Follow up:
+What is the maximum number of edges you could add to n vertexes to make a acyclic directed graph?
+---
+Implement a vector-like data structure from scratch.
+
+This question was to be done in C or C++.
+
+Discussion topics:
+1. Dealing with out of bounds accesses.
+2. What happens when you need to increase the vector's size?
+3. How many copies does the structure perform to insert n elements? That is, n calls to vector.push_back
+---
+You have a sorted array containing the age of every person on Earth.
+
+[0, 0, 0, 0, ..., 1, 1, ..., 28, 28, ..., 110, ...]
+
+Find out how many people have each age.
+---
+Design a queue (FIFO) structure using only stacks (LIFO).
+
+Code is not necessary.
+
+Follow-up: provide a complexity analysis of push and remove operations.
+---
+Given a string S, you are allowed to convert it to a palindrome by adding 0 or more characters in front of it. 
+Find the length of the shortest palindrome that you can create from S by applying the above transformation.
+---
+I think it's one system design question. Design one google's API, qps (query per second).
+---
+In gmail, while composing an email, upon adding a contact, related contacts are displayed. How would you implement that feature? 
+
+- Write an algorithm for that.
+
+- What data structure would you use to store the weights?
+
+- In what format would you persist this data?
+---
+We have words and there positions in a paragraph in sorted order. Write an algorithm to find the least distance for a given 3 words. 
+eg. for 3 words
+job: 5, 9 , 17
+in: 4, 13, 18
+google: 8, 19, 21
+...
+...
+Answer: 17, 18, 19
+Can you extend it to "n" words?
+
+Context: In Google search results, the search terms are highlighted in the short paragraph that shows up. We need to  find the shortest sentence that has all the words if we have word positions as mentioned above.
+---
+There are N parking slots and N-1 cars. Everytime you can move one car. How to move these cars into one given order. 
+BTW: I got this question from internet but i could not figure it out partially because the description is kind of incomplete to me. Anyone knowing this question or the solution?
+---
+Given a BST and a number x, check whether exists two nodes in the BST whose sum equals to x. You can not use one extra array to serialize the BST and do a 2sum solver on it.
+---
+Given a map, each road has a value denoting how many hours it takes to travel from adjacent cities. Each city has its own holiday. If you arrive at the city during its holiday, you can get one gift. However, in each week, you can only travel one time. Now you are initially placed in one city at the beginning of this year, how do you plan your traveling to get the maximal gifts.
+---
+There are many tourist sites and each has their own  holiday. If you arrive there during the holiday, you can gain one gift. It costs you many hours Wij traveling from site_i to site_j.  What's more, you can only travel once in one week. Now you are initially placed in one site, how do you plan your routine in this year to gain most gifts.
+---
+Given a BST and a number x, find two nodes in the BST whose sum is equal to x. You can not use extra memory like converting BST into one array and then solve this like 2sum.
+---
+Given an arraylist of N integers,
+(1) find a non-empty subset whose sum is a multiple of N.
+(2) find a non-empty subset whose sum is a multiple of 2N.
+Compare the solutions of the two questions.
+---
+You are given the toplogical information of a terrain in the following format - There are n points ( x_i , y_i ) and for each point (x_i , y_i ) the altitude h_i is given.
+
+  For any rectangle (axis parallel) defined by the x-y coordinates of
+the corner points, we must answer the query about which is the highest altitude point lying within the rectangle.
+
+ Implement this using a range-query data-structure that answers such a
+query in O( log^2 n) time
+---
+Write code to get maximum and second maximum element of a stack. The given function should be in O(1) complexity . Later extend for finding kth max in O(1).
+---
+You have a binary tree where each node knows the number of nodes in its sub-tree (including itself).
+
+Given a node n and an int k,
+write a function to return the kth
+node in an in order traversal.
+Can you do this non recursively
+---
+Given the relative positions (S, W, N, E, SW, NW, SE, NE) of some pairs of points on a 2D plane, determine whether it is possible. No two points have the same coordinates.
+e.g., if the input is "p1 SE p2, p2 SE p3, p3 SE p1", output "impossible".
+---
+Given an array of integer, find the number of un-ordered pairs in that array, say given {1, 3, 2}, the answer is 1 because {3, 2} is un-ordered, and for array {3, 2, 1}, the answer is 3 because {3, 2}, {3, 1}, {2, 1}.
+
+Obviously, this can be solved by brute force with O(n^2) running time, or permute all possible pairs then eliminate those invalid pairs.
+
+My question is does any body have any better solution and how would you do it because it seems like a dynamic programming problem. A snippet of code would be helpful
+---
+The third question is a brain teaser: if 1000 couples are to give birth to male and female babies(50% change each), and they would keep giving birth until they have a girl, what's the boy to girl ratio in 20 years
+---
+Given an array of object A, and an array of object B. All A's have 
+different sizes, and all B's have different sizes. Any object A is of the 
+same size as exactly one object B. We have a function f(A, B) to compare the
+size of one A and one B. But we cannot compare between two A's or two B's. 
+Give an algorithm to match each A with each B.
+---
+2.
+    String encode(List<String> input);
+    List<String> decode(String input);
+---
+This is two questions I got from a google interview. Not very sure how to solve it. Any comments would be appreciated.
+
+    1.
+    interface RateLimit {
+        /** Sets the rate, from 1 to 1000000 queries per second */
+        void setQPS(int qps);
+    
+        /** accept or reject a request, called when request is received */
+        boolean allowThisRequest();
+    }
+    
+    brief example:
+    server instantiates your object, calls setQPS(1)
+    at at time t, user1 makes a request, allowThisRequest() returns true
+    at time t+0.01 sec, user2 makes a request, allowThisRequest() returns false
+    at at time t+1, user4 makes a request, allowThisRequest() returns true
+    at time t+5 sec, user3 makes a request, allowThisRequest() returns true
+---
+Question: Two players A and B are playing a game. Pots of gold, each with
+varying number of coins are placed in a single line. The rules of the game are:
+1) Players play turn by turn.
+2) On each turn a player can pick a pot of gold from either end of the line. He
+gets all the gold in that pot. The next pot of gold on that end is now available
+for picking.
+What is the maximum number of gold can the first player get ?
+---
+a left grow binary tree. Describe as below. (Transform from A to B)
+
+A:                          B:
+
+      1                    1
+
+     / \                  /
+
+    2   3                2 - 3
+
+   / \                  /
+
+  4   5                4 - 5
+
+ / \                  /
+
+6   7                6 - 7
+a left grow binary tree. Describe as below. (Transform from A to B)
+
+A:                          B:
+
+      1                    1
+
+     / \                  /
+
+    2   3                2 - 3
+
+   / \                  /
+
+  4   5                4 - 5
+
+ / \                  /
+
+6   7                6 - 7
+---
+Use the shorest unique prefix to represent each word in the array
+input: ["zebra", "dog", "duck",”dot”]
+output: {zebra: z, dog: do, duck: du}
+
+[zebra, dog, duck, dove]
+{zebra:z, dog: dog, duck: du, dove: dov}
+
+[bearcat, bear]
+{bearcat: bearc, bear: ""}
+---
+Print combinations of strings from List of List of String
+
+Example input: [[quick, slow], [brown, red], [fox, dog]] 
+
+Output: 
+quick brown fox 
+quick brown dog 
+quick red fox 
+quick red dog 
+slow brown fox 
+slow brown dog 
+slow red fox 
+slow red dog
+---
+Given a string (1-d array) , find if there is any sub-sequence that repeats itself.
+Here, sub-sequence can be a non-contiguous pattern, with the same relative order.
+
+Eg: 
+
+1. abab <------yes, ab is repeated
+2. abba <---- No, a and b follow different order 
+3. acbdaghfb <-------- yes there is a followed by b at two places
+4. abcdacb <----- yes a followed by b twice
+
+The above should be applicable to ANY TWO (or every two) characters in the string and optimum over time.
+
+In the sense, it should be checked for every pair of characters in the string.
+---
+Write a program to implement Double Linked List from Stack with min. complexity.
+---
+Find the 90th percentile of a stream of numbers between 1 and 10^6. 
+
+Followup: What if there is not enough memory to store all numbers and no upper bound.
+---
+You are given a string S. Each character of S is either ‘a’, or ‘b’. You wish to reverse exactly one sub-string of S such that the new string is lexicographically smaller than all the other strings that you can get by reversing exactly one sub-string.
+For example, given ‘abab’, you may choose to reverse the substring ‘ab’ that starts from index 2 (0-based). This gives you the string ‘abba’. But, if you choose the reverse the substring ‘ba’ starting from index 1, you will get ‘aabb’. There is no way of getting a smaller string, hence reversing the substring in the range [1, 2] is optimal.
+
+Input:
+First line contains a number T, the number of test cases.
+Each test case contains a single string S. The characters of the string will be from the set { a, b }.
+
+Output:
+For each test case, print two numbers separated by comma; for example “x,y” (without the quotes and without any additional whitespace). “x,y” describe the starting index (0-based) and ending index respectively of the substring that must be reversed in order to acheive the smallest lexicographical string. If there are multiple possible answers, print the one with the smallest ‘x’. If there are still multiple answers possible, print the one with the smallest ‘y’.
+
+Constraints:
+1 ? T ? 100
+1 ? length of S ? 1000
+
+Sample Input:
+5
+abab
+abba
+bbaa
+aaaa
+babaabba
+
+Sample Output:
+1,2
+1,3
+0,3
+0,0
+0,4
+---
+Given a number M (N-digit integer) and K-swap operations(a swap
+operation can swap 2 digits), devise an algorithm to get the maximum possible integer?
+Examples:
+M = 132   K = 1 output = 312
+M = 132   K = 2 output = 321
+M = 7899  k = 2 output = 9987
+M = 8799  and K = 2 output = 9987
+---
+Problem Link：https://code.google.com/codejam/contest/4214486/dashboard#s=p1
+
+At new years party there is a pyramidal arrangement of glasses for wine. For example, at the top level, there would just be one glass, at the second level there would be three, then 6 and then 10 and so on and so forth like the following image
+
+.
+
+The glasses are numbered using 2 numbers, L and N. L represents the level of the glass and N represents the number in that level. Numbers in a given level are as follows:
+
+Level 1: 
+    1
+
+Level 2:
+    1
+ 2     3
+
+Level 3:
+      1
+   2     3
+4     5     6
+
+Level 4:
+         1
+      2     3
+   4     5     6
+7     8     9     10
+
+
+Each glass can hold 250ml of wine. The bartender comes and starts pouring wine in the top glass(The glass numbered L = 1 and N = 1) from bottles each of capacity 750ml.
+
+As wine is poured in the glasses, once a glass gets full, it overflows equally into the 3 glasses on the next level below it and touching it, without any wine being spilled outside. It doesn't overflow to the glasses on the same level beside it. It also doesn't overflow to the any level below next level (directly).
+
+For example: When the glass of L = 2 and N = 2 overflows, the water will overflow to glasses of L = 3 and N = 2, 4, 5.
+
+Once that the bartender is done pouring B bottles, figure out how much quantity in ml of wine is present in the glass on level L with glass number N.
+Input
+
+The first line of the input gives the number of test cases, T. T test cases follow. Each test case consists of three integers, B, L, N, B is the number of bottles the bartender pours and L is the glass level in the pyramid and N is the number of the glass in that level.
+Output
+
+For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the quantity of wine in ml in that glass.
+---
+There is an array of 3-tuple, in the form of (a, 1, 5). The first element in the tuple is the id, the second and third elements are both integers, and the third is always larger than or equal to the second. Assume that the array is sorted based on the second element of the tuple. Write a function that breaks each of the 3-tuple into two 2-tuples like (a, 1) and (a, 5), and sort them according to the integer. 
+E.g. given (a, 1, 5), (b, 2, 4), (c, 7, 8), output (a, 1), (b, 2), (b, 4), (a, 5), (c, 7), (c, 8).
+---
+There are a large number of leaves eaten by caterpillars. There are 'K"' caterpillars which jump onto the leaves in a pre-determined sequence. All caterpillars start at position 0 and jump onto the leaves at positions 1,2,3...,N. Note that there is no leaf at position 0.
+Each caterpillar has an associated 'jump-number'. Let the jump-number of the i-th caterpillar be A [i]. A caterpillar with jump number 7 keeps eating leaves in the order 1,241,3*1,... till it reaches the end of the leaves - i.e, it eats the leaves at the positions which are multiples of /'.
+Given a set 'A' of 'IC elements. 'e<=15.,. 'N'<=109, we need to determine the number of uneaten leaves.
+Input Format:
+N -number of leaves
+A - Given array of integers
+Output Format:
+An integer denoting the number of uneaten leaves.
+Sample Input:
+N = 10
+A = [2,4,5]
+Sample Output:
+4
+Explanation
+1,3,7,9 are the leaves which are never eaten. All leaves which are multiples of 2, 4, and 5 have been eaten.
+
+Java Code:
+---
+
+---
+
+---
+Given a start position and an target position on the grid. You can move up,down,left,right from one node to another adjacent one on the grid. However there are some walls on the grid that you cannot pass. Now find the shortest path from the start to the target. 
+(This is easy done by BFS)
+Extend. If you can remove three walls, then what is the shortest path from start to the target. (I have no ideal except for enumerate all the possibility of three walls. It must be the silly solution.) Does anyone have any idea?
+---
+Given an array of positive and negative numbers, arrange them in an alternate fashion such that every positive number is followed by negative and vice-versa maintaining the order of appearance.
+Number of positive and negative numbers need not be equal. If there are more positive numbers they appear at the end of the array. If there are more negative numbers, they too appear in the end of the array.*
+
+Example:
+---
+
+---
+
+---
+Limitations:  
+a) Use O(1) extra space  
+b) Time Complexity should be O(N)
+c) Maintain the order of appearance of elements as in original array.
+---
+.      In an unsorted array of numbers that occurs an odd number of times except one that occurs an even number of times, find the number that occurs an even number of times
+---
+Solve Travelling salesman problem using Iterative Deepening Search Algorithm.
+
+Edit:
+You have been given distance between each pair of cities and the number of cities
+---
+You are given a list of items / combo_items with their price list.
+And you are given list of items to buy.
+Now you are asked to find which combination to buy so that it costs you minimum.
+It doesnt matter if you are getting some extra items if it costs less.
+
+
+Sr.No Price | Items/Combo_Items
+1.    5   | Burger
+2.    4   | French_Frice
+3.    8   | Coldrink
+4.    12    | Burger, French_Frice, Coldrink
+5.    14    | Burger, Coldrink
+
+
+Input Items to Buy:
+Coldrink
+
+Output(Sr.No)
+3
+
+Input Items to Buy:
+Burger Coldrink
+
+Output(Sr.No)
+4
+
+Input Items to Buy:
+Burger French_Frice
+
+Output(Sr.No)
+1,2
+---
+Write a function which, given two integers (a numerator and a denominator), prints the decimal representation of the rational number "numerator/denominator".
+   Since all rational numbers end with a repeating section, print the repeating section of digits inside parentheses; the decimal printout will be/must be 
+
+Example: 
+1 , 3 = 0.(3)
+2 , 4 = 0.5(0)
+22, 7 = 3.(142857)
+
+etc..
+---
+You are given a text file that has list of dependencies between (any) two projects in the soure code repository. Write an algorithm to determine the build order ie. which project needs to be build first, followed by which project..based on the dependencies.
+Bonus point: If you can detect any circular dependencies and throw an exception if found.
+
+EX: ProjectDependencies.txt
+a -> b  (means 'a' depends on 'b'..so 'b' needs to be built first and then 'a')
+b -> c
+b -> d
+c -> d
+
+Then the build order can be
+
+d , c, b, a in that order
+---
+There are at most eight servers in a data center. Each server has got a capacity/memory limit. There can be at most 8 tasks that need to be scheduled on those servers. Each task requires certain capacity/memory to run, and each server can handle multiple tasks as long as the capacity limit is not hit. Write a program to see if all of the given tasks can be scheduled or not on the servers? 
+
+Ex: 
+Servers capacity limits: 8, 16, 8, 32 
+Tasks capacity needs: 18, 4, 8, 4, 6, 6, 8, 8 
+For this example, the program should say 'true'. 
+
+Ex2: 
+Server capacity limits: 1, 3 
+Task capacity needs: 4 
+For this example, program should return false. 
+
+Got some idea that this needs to be solved using dynamic programming concept, but could not figure out exact solution.
+---
+Find the longest words in a given list of words that can be constructed from a given list of letters. 
+Your solution should take as its first argument the name of a plain text file that contains one word per line. 
+The remaining arguments define the list of legal letters. A letter may not appear in any single word more times than it appears in the list of letters (e.g., the input letters ‘a a b c k’ can make ‘back’ and ‘cab’ but not ‘abba’). 
+
+Here's an example of how it should work: 
+  
+prompt> word-maker WORD.LST w g d a s x z c y t e i o b 
+['azotised', 'bawdiest', 'dystocia', 'geotaxis', 'iceboats', 'oxidates', 'oxyacids', 'sweatbox', 'tideways']
+
+
+Tip: Just return the longest words which match, not all.
+---
+Given 2 set of arrays of size N(sorted +ve integers ) find the median of the resultant array of size 2N.
+(dont even think of sorting the two arrays in a third array , though u can sort them. Try something better than order NLogN
+---
+Write a method to return first five 10 digit prime numbers
+---
+Write a method to return first five 10 digit prime numbers.
+---
+Output top N positive integer in string comparison order. For example, let's say N=1000, then you need to output in string comparison order as below:
+1, 10, 100, 1000, 101, 102, ... 109, 11, 110, ...
+---
+Find the longest sequence of prefix shared by all the words in a string.
+"abcdef abcdxxx abcdabcdef abcyy" => "abc"
+---
+Given a NxN matrix which contains all distinct 1 to n^2 numbers, write code to print sequence of increasing adjacent sequential numbers.
+ex:
+1 5 9
+2 3 8
+4 6 7
+
+should print
+6 7 8 9
+---
+Give efficient implementation of the following problem.
+
+An item consist of different keys say k1, k2, k3. User can insert any number of items in database, search for item using any key, delete it using any key and iterate through all the items in sorted order using any key. Give the most efficient way such that it supports insertion, search based on a key, iteration and deletion.
+---
+Swap 2 nodes in a Binary tree.(May or Maynot be a BST)
+Swap the nodes NOT just their values.
+(preferably in Java please..(My requirement not theirs :p))
+ex:
+  5
+       / \
+     3    7
+    / \     / 
+   2  4  6  
+   
+   swap 7 and 3
+   
+       5
+      / \
+     7   3
+    /   / \
+  6   2   4
+---
+You have an array of integers(size N), such that each integer is present an odd number of time, except 3 of them(which are present even number of times). Find the three numbers.
+
+Only XOR based solution was permitted.
+Time Complexity: O(N) 
+Space Complexity: O(1) 
+
+Sample Input:
+{1,6,4,1,4,5,8,8,4,6,8,8,9,7,9,5,9}
+Sample Output:
+1 6 8
+---
+Given an unsorted array of integers, you need to return maximum possible n such that the array consists at least n values greater than or equals to n. Array can contain duplicate values.
+Sample input : [1, 2, 3, 4]  -- output : 2
+Sample input : [900, 2, 901, 3, 1000] -- output: 3
+---
+Traveler wants to travel from city “A” to city “D”.
+There is a path from city “A” to city “D”.
+Path consists of steps, i.e. travel from city “A” to city “B”.
+Path is encoded as sequence of steps.
+Sequence is in incorrect order.
+Your task is to restore order of steps in the path.
+Input (unordered sequence):
+C -> D
+A -> B
+B -> C
+Output (Correctly ordered list which represents path):
+A, B, C, D
+
+Implement following API:
+---
+
+---
+
+---
+Given a Binary Search tree of integers, you need to return the number of nodes having values between two given integers. You can assume that you already have some extra information at each node (number of children in left and right subtrees !!).
+---
+You are given information about hotels in a country/city. X and Y coordinates of each hotel are known. You need to suggest the list of nearest hotels to a user who is querying from a particular point (X and Y coordinates of the user are given). Distance is calculated as the straight line distance between the user and the hotel coordinates.
+---
+Given a complete binary tree, Find a Max element
+---
+Design a two player battleship game to be played over internet
+---
+Suppose you have a million integer numbers.
+Return all possible values of a,b and c such that
+a+b+c<=d.
+d will be provided to you.
+ex: if the numbers are 1,2,3,4,5,6,7
+and d=7
+[1,2,3]
+[1,2,4]
+
+[1,2,3] will be same as [1,3,2] and [3,2,1]...
+
+follow up:
+
+Return all such parts that satisfy the above condition if d is not provided.
+---
+Given a string with multiple spaces write a function to in-place trim all spaces leaving a single space between words
+e.g. 
+_ _ _ Hello _ _ _ World _ _ _
+Hello _ World _ _ _ _ _ _ _ _ _
+---
+How many occurrences of a given search word can you find in a two-dimensional array of characters given that the word can go up, down, left, right, and around 90 degree bends? 
+
+Ex:
+Count of occurrences of SNAKES 
+S N B S N 
+B A K E A 
+B K B B K 
+S E B S E 
+
+The answer is 3.
+
+
+
+Write a program for that question.
+---
+Quest: create a Random number generator without using the java in build Random class?
+
+public class GenerateRandomNumbers {
+public static int seed = 10;
+
+public void generateInt(int num){
+seed = num;
+for(int i=1;i<num;i++){
+seed = ((int)System.nanoTime()%(i));
+if(seed<=0)
+seed = ((int)System.currentTimeMillis()%i);
+
+System.out.println(seed);
+}
+}
+
+public static void main(String[] args) {
+new GenerateRandomNumbers().generateInt(20);
+}
+
+}
+
+its a class to generate random numbers but the problem is It always starts with 0...!
+Can someone add some more to this code.??
+---
+Given a string (for example: "a?bc?def?g"), write a program to generate all the possible strings by replacing ? with 0 and 1.
+Example:
+ Input : a?b?c?
+ Output: a0b0c0, a0b0c1, a0b1c0, a0b1c1, a1b0c0, a1b0c1, a1b1c0, a1b1c1.
+---
+Table 1: Parents -> (int id, int age)
+Table 2: Children -> (int id, int age, int parent_id)
+Get the parent id, his/her oldest and youngest children ids.
+---
+Table 1: Parents -> (int id, int age, int Child_id)
+Table 2: Children -> (int id, int age, int parent_id)
+Get the parent id, his/her oldest and youngest children ids.
+---
+given 10 files (text files) each of size of 900 Mb. givena another file named "hello". match the contents of this file with other 10 file and return the file whose contents closely match with the contents of file "hello"
+---
+Find minimum number of steps to reach the end of array from start (array value shows how much you can move).
+---
+Draw a graph as a graph. Assume there is graphics library to draw lines and all. Just tell how will you order the vertices such that the edges don't intersect and they seem ordered.
+---
+Need to implement something like pastebin wherein you paste some text, you are given an url. The url can be used anywhere to access the text.
+Various problems, features and design of this architecture were discussed.
+---
+There are N lanes, and the speed of each lane is given. There are many cars in all the lanes and the start position and the length of each car and its corresponding lane is given. There is a frog which an do 2 functions: wait() or jump().
+Find if there is a path for the frog to go from lane 1 to lane N without getting hit by any of the moving cars.
+---
+Write an algorithm to find the ‘next’ node (e.g., post-order successor) of a given node in a binary tree and binary search tree
+a.) where each node has a link to its parent.
+b.) without parent pointer
+
+implement 2 versions of the algorithm: 1.) binary tree 2.) BST
+---
+Given a matrix of size N*N and a starting point "s" in the matrix which represents a color. 
+Find the area of the shape represented by the color of the starting point "s".
+
+Note 1: A shape can be anything as long as it is connected, e.g. a square, a circle, a doughnut or a line.
+
+Note 2: It is only a shape if they are connected from the starting point.
+
+Note 3: Connected means, adjacent and the same color.
+
+E.g.
+---
+
+---
+
+---
+Update: OK as requested further clarifications, a cell is only a single color, it is a matrix and contains
+a single value stating the color of the cell. Think of each cell as a pixel and each pixel represents a length of 1. 
+
+The shape above has an area of 10, because that it is not a regular square but has two holes in the middle, if you do it mathematically:
+
+(3*4) - (1*2) = 10 or simply by visually counting the R squares.
+
+You are not trying to create shapes, you are using the starting point "s" to find the complete shape (traverse the matrix until you have found all connected pixels) and calculate the area.
+
+If you need more clarification I can try but I think that should clarify.
+
+State your Time and Space complexity of your algorithm.
+
+Consider also this:
+---
+
+---
+
+---
+In the above case, the other shape, same color is not connected to the shape specified by the starting point, hence is not part of the area calculation.
+
+Apologies for the formatting.
+---
+How to delete two rows from the table in database ?
+Note: Delete only first two rows from the Database.
+<table style="width:300px" border="2px">
+<tr>
+  <th>USERNAME</th>
+  <th>LOCATION</th>   
+</tr>
+<tr>
+  <td>zac</td>
+  <td>california</td>
+</tr>
+<tr>
+  <td>zac</td>
+  <td>california</td>
+</tr>
+<tr>
+  <td>zac</td>
+  <td>california</td>
+</tr>
+<tr>
+  <td>zac</td>
+  <td>california</td>
+</tr>
+
+</table>
+---
+public class LogEntry {
+  public final long startTime; // start time of a job in millisec granularity
+  public final long endTime; // end time of a job in millisec granularity.
+  public final long ram; // the amount of ram the job occupies.
+  public final long jobId;
+  ... constructor ...
+}
+
+running total of RAM
+|
+|             3GB
+|           -----
+|      2GB
+|     ------
+| 1GB                       -----------
+|-----           -----------
+|
+|____________________________________________________time
+
+Find the peakRAM when the input is a collection of LogEntry objects
+---
+What happens when you type in shell
+---
+
+---
+
+---
+Interviewer expected the list of system-calls made, file-descriptors involved etc.
+---
+Code for computing a^b and optimize it.
+---
+Given an array of integers,  sort the array into a wave like array, namely 
+a1 >= a2 <= a3 >= a4 <= a5.....
+---
+Determine minimum sequence of adjacent values in the input parameter array that is greater than input parameter sum.
+
+Eg
+Array 2,1,1,4,3,6. and Sum is 8
+Answer is 2, because 3,6 is minimum sequence greater than 8.
+---
+The input is a sequence x1,x2,...,xn of integers in an arbitrary order, and another sequence 
+a1,a2,..,an of distinct integers from 1 to n (namely a1,a2,...,an is a permutation of 
+1, 2,..., n). Both sequences are given as arrays. Design an 0(n logn) algorithm to order 
+the first sequence according to the order imposed by the permutation. In other words, for 
+each i, Xi should appear in the position given in ai. For example, if x = 17, 5, 1,9, and a = 
+3, 2, 4, 1, then the outcome should be x = 9, 5, 17, 1. The algorithm should be in-place, so 
+you cannot use an additional array.
+---
+Consider the array 3 5 7 6 3.
+
+Return the pair of indices that forms the slice where the difference between the maximum and minimum in the slice <= 2.
+
+Output:
+(0,0) (1,1) (2,2) (3,3) (4,4) (5,5)
+(0,1) (1,2) (1,3) (2,3)
+
+Example slices: 3 5, 5 7, 1 3, 2  3.
+
+
+The following link
+https://codility.com/media/train/solution-count-bounded-slices.pdf
+
+ has O ( n ) solution. But couldn't understand the O (n ) solution. Could some one explain with an example?
+---
+Find next higher number with same digits.
+
+Example 1 : if num = 25468, o/p = 25486
+Example 2 : if num = 21765, o/p = 25167
+Example 3 : If num = 54321, o/p = 54321 (cause it's not possible to gen a higher num than tiz with given digits ).
+---
+Given a undirected graph with corresponding edges. Find the number of possible triangles?
+Example:
+0 1
+2 1
+0 2
+4 1
+
+Answer:
+1
+---
+Given two strings a and b, find whether any anagram of string a is a sub-string of string b. For eg: 
+if a = xyz and b = afdgzyxksldfm then the program should return true.
+---
+given a board with black (1) and white (0), black are all connected. find the min rectangle that contains all black.
+
+example:
+0 0 0 0 0
+0 1 1 1 0
+0 1 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+
+the min rectangle contains all black (1) is the rectangle from (1,1) - (3, 3)
+---
+Given an array of Integers, and a range (low, high), find all continuous subsequences in the array which have sum in the range. Is there a solution better than O(n^2)?
+---
+Given k integers i_0, i_1, i_2, i_3,...i_k, find all possible expressions which uses + - * / and () to generate a result equals to target X.
+() has the highest priority.
+---
+Given a dictionary of words, and a set of characters, judge if all the characters can form the words from the dictionary, without any characters left.
+For example, given the dictionary {hello, world, is, my, first, program},
+if the characters set is "iiifrssst", you should return 'true' because you can form {is, is, first} from the set;
+if the character set is "eiifrsst", you should return 'false' because you cannot use all the characters from the set.
+
+P.S. there may be tens of thousands of words in the dictionary, and the chars set length could be up to hundreds, so I really need some efficient algorithm.
+---
+Many sticks with length, every time combine two, the cost is the sum of two sticks' length. Finally, it will become a stick, what's the minimum cost?
+---
+Given a dictionary, and a list of letters ( or consider as a string), find the longest word that only uses letters from the string. [I didn't meet this question, what's the best solution?]
+---
+Insert a element in a sorted circular linked list
+---
+For a given node in binary search tree find a next largest number in search tree.
+---
+Write a function return an integer that satisfies the following conditions:
+1) positive integer
+2) no repeated digits, eg., 123 (valid), 122 (invalid)
+3) incremental digit sequence, eg., 1234 (valid) 1243(invalid)
+4) the returned integer MUST be the smallest one that greater than the input. eg., input=987, return=1023
+
+function signature could be like this:
+String nextInteger(String input)
+---
+Given a 2-D matrix represents the room, obstacle and guard like the following (0 is room, B->obstacle, G-> Guard):
+0  0  0
+B G  G
+B  0  0
+
+calculate the steps from a room to nearest Guard and set the matrix, like this
+2  1   1
+B  G  G
+B  1   1
+Write the algorithm, with optimal solution.
+---
+You are given a string which has numbers and letters. Numbers occupy all odd positions and letters even positions. You need to transform this string such that all letters move to front of array, and all numbers at the end.
+
+The relative order of the letters and numbers needs to be preserved
+
+I need to do this in O(n) time and O(1) space.
+
+eg: a1b2c3d4 -> abcd1234 , x3y4z6 -> xyz346
+
+Please don't submit your answers if it is not fulfilling the time-space complexity requirements.
+---
+What would happen if you have only one server for a web cache (a web browser cache whose key is url and value is the loaded content of the webpage) but huge numbers of clients? And how would you solve it? Assume the cache is implemented with a hashmap and a linkedlist.
+---
+Consider a scenario where you open a file with your favorite editor (emacs on Linux or Microsoft Word on Windows). 
+You notice that the application has a performance hit due to a recent fix made to the Editor application. 
+What will your testing Matrix look like that will convey the information that the performance of the application has degraded (or improved after bug fixes and re-design)?  
+
+In other words, the interviewer was saying that, if we had a graph showing values obtained from tests run over time for:
+
+File I/O, hardware configuration, software configuration, graphics system, GPU, CPU etc. 
+
+then at the End Of the Day, looking at the reports, which parameters will instantly tell you that the performance has definitely increased? 
+(Also in other words he was asking the Matrix that will portray those parameters).
+---
+Give a N*N matrix, print it out diagonally.
+Follow up, if it is a M*N matrix, how to print it out.
+Example:
+1 2 3
+4 5 6
+7 8 9
+print:
+1
+2 4
+3 5 7
+6 8
+9
+
+This is the question in the phone interview.
+Please share more questions.
+---
+Modify the following code to add a row number for each line is printed
+---
+
+---
+
+---
+Expected Output:
+---
+
+---
+
+---
+What changes needs to be done to accomplish the output expected?
+---
+Find a shortest path in a N*N matrix maze from (0,0) to (N,N), assume 1 is passable, 0 is not, 3 is destination, use memorization to cache the result. Here is my code. I am not sure if I am caching it right.
+---
+
+---
+
+---
+Flatten an iterator of iterators in Java. If the input is [ [1,2], [3,[4,5]], 6], it should return [1,2,3,4,5,6]. Implement hasNext() and next().
+---
+Given a set of intervals, find the interval which has the maximum number of intersections (not the length of a particular intersection). So if input (1,6) (2,3) (4,11), (1,6) should be returned. Some suggest to use Interval Tree to get this done in O(logn), but I did not understand how to construct and use the Interval Tree after reading its wiki page. Is there any other way to do it? If Interval tree is the only option, please educate me how to construct/use one. Thanks.
+---
+What happens when you type a link in any browser and click GO button? List all steps. 
+What should be the issue if the browser app build that i have today is 1 second 250 milliseconds slower than yesterday's build? ASSUME: WiFi is perfect, loading 10 webpages from a controlled server - hence there are no infrastructure or server side delays causing this. 
+What would you think might be the issue? How would you debug?
+---
+You are given a string FOOFIGHTERS. You have to come up with an algorithm that will compress this string.
+
+You also have to make sure that you are not using extra memory. For example: FOOFIGHTERS will be compressed as FO2FIGHTERS. You should not use another array or bitfield to keep a frequency count for the individual letters.
+---
+Find the k-th Smallest Element in Two Sorted Arrays. I followed the algorithm from this post, http://leetcode.com/2011/01/find-k-th-smallest-element-in-union-of.html
+But it does not handle the case where there are duplicates? Does anyone know how to do that? Also, in Java, how should we reduce the size of the arrays? I used the code below, but did not work.
+---
+
+---
+
+---
+Finding a pair of elements from two sorted lists(or array) for which the sum of the elements is a certain value. Anyway solution that can do better than O(a.length + b.length)?
+---
+we have a random list of people. each person knows his own height and the number of tall people in front of him. write a code to make the equivalent queue.
+for example :
+input: <"Height","NumberOfTall","Name">, 
+<6,2,"A">,<1,4,"B">,<11,0,"C">,<5,1,"D">,<10,0,"E">,<4,0,"F">
+output: "F","E","D","C","B","A" --> end of queue
+---
+given an 2D matrix M, is filled either using X or O, you need to find the region which is filled by O and surrounded by X
+and fill it with X.
+
+example 1:
+
+X X X X X
+X X O O X
+X X O O X
+O X X X X
+
+Answer :
+
+X X X X X
+X X X X X
+X X X X X
+O X X X X
+
+example 2:
+
+X X X X X
+X X O O X
+X X O O O
+O X X X X
+
+answer 2:
+X X X X X
+X X O O X
+X X O O O
+O X X X X
+---
+Given an array of n elements (a1,a2,..ai,...,an). You are allow to chose any index i and j, such that (i!=j) and allow to perform increment operation on ai = ai+1 and decrements operation on aj = aj - 1 infinite number of times.  How many maximum number of elements you can find that have same number.
+
+example 1:
+1 4 1
+ans: 3
+
+example 2:
+2 1 
+ans : 1
+---
+Given an array of n elements (a1,a2,..ai,...,an). You can allow to chose any index i and j, such that (i!=j) and allow to perform 
+increment operation on ai = ai+1 and decrement operation on aj = aj-1 infinite number of times.
+How many number of elements you can find which have same numbers.
+
+example 1:
+1 4 1
+ans: 3
+
+example 2:
+2 1 
+ans : 1
+---
+Given a circle with N defined points and a point M outside the circle, find the point that is closest to M among the set of N. O(LogN)
+---
+Given a preorder traversal, create a binary search tree in optimized time
+---
+Given a binary tree, how would you copy it from one machine to the other, assume you have a flash drive. I believe we should write the binary tree to file and have the other machine de-serialize it. But how should we do it?
+---
+largest number that an int variable can fit given a memory of certain size
+---
+Implement a class to create timer object in OOP
+---
+What's the tracking algorithm of nearest location to some friends that are located in a grid region?
+---
+How would you split a search query across multiple machines?
+---
+def inc: 
+  while True: 
+      v = v + 1  //---A
+     set(s)       // ---B
+
+def disp: 
+  while True: 
+     wait(s)      //---C
+       print v    //----D
+
+print all possible value, which is shared value. At the begin , v = 0 
+s is binary semophore. initial value is 0
+---
+Given a list of strings. Produce a list of the longest common suffixes. If it asks for longest common substring, then building a suffix tree should be the way to go. But how should we implement this if it is for longest common suffixes?
+---
+Given a kernal code in "0"th machine. How soon you can replicate the kernal across N machines. Now if the machines has upload and download bandwidth constraints, how can you impove the copy time.
+---
+If you have data coming in rapid succession what is the best way of dealing with redundant data?
+---
+How would you use Dijkstra's algorithm to solve travel salesman problem, which is to find a shortest path from a starting node back to the starting node and visits all other node exactly once.
+---
+How does trie handle scalability as opposed to hashtable? Assuming it is used for a dictionary. Sclability here should cover large size of input, running out of memory, or even running out of memory on multiple machines if distributed system is used.
+---
+You have two sorted list. Write code for returning the first k elements. K may be a large number like 10 million.
+---
+You have a lists with integers. Find all the pairs of numbers that sum less than or equal to to a particular number k. The list contains minimum 5 Million number.
+
+(I provided a n^2logn solution but they may be looking forward to having a better answer).
+---
+Implement a sudoku solution verifier function.  The rules for sudoku is this:
+
+You have a 9 by 9 board.  This board is divided into nine rows, nine columns, and nine 3x3 blocks.  In a solved puzzle, every row, every column, and every 0 block has to contain each of the digits from 1 to 9.  This is an example of a solved puzzle:
+---
+
+---
+
+---
+
+---
+
+---
+sort the array so that the odd number in front of the even number and their relative order doesn't change in Time O(n) and Space O(1). I believe quickselect can do this, but it will change the relative order of the input.
+---
+What happens during and after a query is being typed (autocomplete) in a search box whether the user is trying to go to a website or asking a question etc, and how do servers complete the request and what is the best (parallel) structure for the request to go through. DFS and how servers are located for proximity
+---
+Write code to return a random line from a file of unknown size and variable length rows
+---
+How to remove duplicate lines in a large text file? I think it's easy to find duplicate lines, but how do we efficiently remove them from the file?
+---
+How would you design a chess game in OOP?
+---
+Given inputs from Google Search, you have K chunks. Each chunk is individually alphabetically ordered (apple, banana, cat) ... (*apple, *banan, *cat). You want to merge all chunks into a single list. How would you do it?
+---
+given 2 Dimensional array 
+I/P -- String[][] input = { { "abc", "def", "gh" }, 
+          { "f", "g" },
+          { "qrt","xyz","pqr" } };
+
+Program shd return a 2-D Array with 
+O/P -- { { "abcfqrt", "abcfxyz", "abcfpqr" ,abcgqrt and so on ..
+---
+Count the number of positive integers less than N that does not contains digit 4.
+---
+If you had a savings account with $1, at a 100% interest rate, at what year would you have 15 billion dollars? I know it's Log base 2 of 15 billion. But how did it get to log base 2? What's the formula here?
+---
+The setup is that we are given a series of text files which contain information regarding a code repository's commits. Each file represents a single commit and they are formatted as follows:
+"
+Commit #: XXX
+Author: XXX
+Reviewer(s): XXX, XXX, ...
+File: XXX
+File: XXX
+...
+Date: XX:XX:XX XX/XX/XXXX
+"
+The commit number is unique and is generated in synchronous order. There is exactly 1 unique author. There are a variable number of reviewers, delimited by commas; if there are no reviewers, that line is absent from the file. There are a variable number of edited files in the commit, each receiving its own line. The time/date is when the commit was submitted.
+
+First design a graphical model for all of the commit data. Then describe how this model is updated when a new commit is generated. Finally, write the code segment called when a new commit is generated which edits a system that has implemented your model of the data - its input is a file name and whatever necessary data structures that are maintained by your system.
+---
+Given a timer time() with nanosecond accuracy and given the interface
+---
+
+---
+
+---
+implement the interface. The getCountInLastX functions should return the number of times increment was called in the last X.
+
+(My note: an ideal solution will have space usage which does *not* grow unbounded with the number of calls to increment(). It seems to me that a solution involving a round-robin database could be good, but it sacrifices accuracy.)
+---
+given a double linked list and an array of nodes in that dll，output number of clusters. example: dll: n1 n2 n3 n4 n5; array: n1 n4 n5; output 2( (n1) (n4 n5))
+---
+given string of chars，find way to compress consecutive char with no ambiguity. example：daaad
+to d4*ad; 5eeeecd to 5*14*ecd
+---
+Write a routine that does secret santa in O(N) time. I don't really understand what it means by 'does secret santa' actually.
+---
+We have a list of N nodes with each node pointing to one of the N nodes. 
+It could even be pointing to itself. We call a node ‘good’, 
+if it satisfies one of the following properties:
+
+* It is the tail node (marked as node 1)
+* It is pointing to the tail node (node 1)
+* It is pointing to a good node
+
+You can change the pointers of some nodes in order to make them all ‘good’. 
+You are given the description of the nodes. 
+You have to find out what is minimum number of nodes that you have to change in order
+to make all the nodes good.
+
+Input:
+The first line of input contains an integer number N which is the number of nodes. 
+The next N lines contains N numbers, 
+all between 1 and N. 
+The first number, is the number of the node pointed to by Node 1; 
+the second number is the number of the node pointed to by Node 2; 
+the third number is the number of the node pointed to by Node 3 and so on.
+
+N is no larger than 1000.
+
+Output:
+Print a single integer which is the answer to the problem
+
+Sample Input 1:
+5
+1
+2
+3
+4
+5
+
+Sample output 1:
+4
+
+Explanation:
+We have to change pointers for four nodes (node #2 to node #5) to point to node #1. 
+Thus 4 changes are required
+
+Sample input 2:
+5
+5
+5
+5
+5
+5
+
+Sample output 2:
+1
+
+Explanation:
+We have to just change node #5 to point to node #1 (tail node) which will make node #5 good.
+Since all the other nodes point to a good node (node #5), every node becomes a good node.
+---
+Generate MAX_INT (Max signed int value) using bitwise operators. Should work in 32 and 64 bit processors
+---
+You have a plain with lots of rectangles on it, find out how many of them intersect
+---
+Sort a list of numbers in which each number is at a distance k from its actual position
+---
+Store a set of sudden-death tournament results in a compact format (eg. a bit array) and a set of predicted match results (also in a bit array). Score the predictions, giving one point per correctly guessed match, without unpacking the bit array into a more convenient format (ie. you have to traverse the tree in-place).
+---
+Implement a simple regex parser which, given a string and a pattern, returns a boolean indicating whether the input matches the pattern. By simple, we mean that the regex can only contain special character: * (star), . (dot), + (plus). The star means what you'd expect, that there will be zero or more of previous character in that place in the pattern. The dot means any character for that position. The plus means one or more of previous character in that place in the pattern.
+---
+1. find all the combinations of a string in lowercase and uppercase. For example, string "ab" -> "ab", "Ab", "aB", "AB". So, you will have 2^n (n = number of chars in the string) output strings. The goal is for you to test each of these string and see if it match a hidden string.
+---
+int[] first = {3};   // size 1
+int[] second = new int[3];    // size 3
+second[0] = 2;
+second[1] = 4;   //2,4
+
+Second array has enough space to hold all elements of first and second array, where both the arrays are merged. Now write code to have first array into second.
+
+The following Cracking the coding interview code doesn't work.
+
+  public static int[] merge2(int[] first, int[] second){
+    int lastA = first.length-1;  //0
+    int lastB = second.length-1;   //2
+    int indexMerge = (lastA + lastB);
+    while(lastA >= 0 && lastB >= 0){
+      if(first[lastA] > second[lastB]){
+        second[indexMerge] = first[lastA];
+        indexMerge--;
+        lastA--;        
+      }else{
+        second[indexMerge] = second[lastB];
+        indexMerge--;
+        lastB--;
+      }
+      
+    }
+    
+    while(lastA >= 0){
+      second[indexMerge] = first[lastA];
+      indexMerge--;
+      lastA--;
+    }
+    return second;
+  }
+---
+You are given a 2-Dimensional array with M rows and N columns. You are initially positioned at (0,0) which is the top-left cell in the array. You are allowed to move either right or downwards. The array is filled with 1's and 0's. A 1 indicates that you can move through that cell, a 0 indicates that you cannot move through the cell. Given a function numberOfPaths which takes in the above 2-D array, return the number of paths from the top-left cell to the bottom-right cell (i.e. (0,0) to (M-1,N-1)).
+---
+Given a kernal code in "0"th machine. How soon you can replicate the kernal across N machines. Now if the machines has upload and download bandwidth constraints, how can you impove the copy time.
+---
+Consider in Java arraylist we have mix of int, double, float, string, etc. How will you find if a given index of arraylist have string. No need to worry about generics and type safe.
+---
+Consider the following array   {1,2,3,4,5,2,5,4,4};
+In the above array, index 4 could be considered as breaking point where summation of 0 to 4 in the array is equal to summation of 5 to end of array. We need to find the breaking point for the given array. I solved this. But follow up was for this array
+---
+
+---
+
+---
+. Mathematically the later array's breaking point is 2.
+---
+How would you synchronize a linked list across multiple computers. If nodes are added/removed to a linked list on one computer, all others must reflect this change. Concurrancy must be accounted for. (java)
+---
+Bag-of-words model. Write the process of search based on inverted index. The follow up is given some attributes(an array), how to filter the search result.
+---
+Find the shortest path in a maze (from origin to destination). I believe we are supposed to use Dijkstra or BFS. But what I am confused with is that Dijkstra computes the shortest path based on the distance of each edge. But a maze doesn't have weighted edges, and its shortest path should be 'minimum number of cells'. How can we make use of Dijkstra, or BFS?
+---
+The final question was just how to write a connection pool (i.e, a class that returns connections to the user, and if the user is done, returns them back to the pool)
+---
+Difference between cloning a directed graph vs undirected graph. There are lots of tutorials on how to clone a directed graph online, such as leetcode. But what if it's undirected graph? It appears to me that it would be pretty much the same? For example,
+---
+
+---
+
+---
+For example, A can have a neighbor called B. Therefore, we may traverse from A to B. For undirected graph, does it imply that B can always traverse back to A? Even if it does, if we use a hashtable to keep track of which node has been copied and processed in the queue, then the logic for cloning a directed graph should be the same as for a undirected graph, right?
+---
+Does a given file name match a single-star pattern? (can't use regex I assume)
+index.html matches *.html
+foo.txt does not match *.html
+
+matches(“index.html”, “*html”) returns true
+matches(“foo.txt”, “*html”) returns false
+matches(“cat”, “c*t”) returns true
+---
+Given a set of intervals (time in seconds) find the set of intervals that overlap. Follow-up: what if we were to find the interval with maximum overlap.
+---
+Given a set top box:
+a, b, c, d, e,
+f, g, h, i, j,
+k, l, m, n, o
+p, q, r, s, t
+u, v, w, x, y
+z
+
+Write code to give the character sequence given a word, For example, if the word is "CON", the function will print this:
+Right//now we're at B
+Right//now we're at C
+OK//to select C
+Down
+DOwn
+Right
+Right
+OK//to select O
+Left//now at N
+OK//to select N
+
+note: Be careful when you're at Z. if you go to the right, you will get stuck.
+Afterwards, the interviewer adds a space to the right of 'Z' to test the code.
+---
+How do you design a Maze and what kind of data structures you use for Maze. In addition, write a method to print the shorted path from start to end point.
+---
+Design Short URL. (I am not sure what it even means)
+---
+Given two Binary trees. these trees "may" have right and left branches swapped. Now compare it.
+---
+Given a undirected graph, clone it. Now if the undirected graph has the neighbors with the nodes as same data - how do you make sure you create the exact same branches and also how do you make sure you don't run into loops for the exact node. He gave a empty directed graph and asked me write code after that.
+---
+There are 10,000 balls and may be 500 different colors of ball
+
+Example: There are:
+
+   4 - red ball
+5900 - Blue ball
+3700 - Green ball
+ 396 - mintcream ball
+Or there may be 10,000 red balls.
+
+Or all balls are has same range, i.e. 500 red, 500 blue, etc.
+
+We don’t know the range of any ball and number of color balls, but the minimum is 1 color and maximum is 500 colors, and we have auxiliary array of size 500. how to arrange all same color ball together in minimum passes over balls? is it possible to do in less than two passes ??
+---
+There's a matrix. Each element in the matirx is a bit (0 or 1). Write a method to reverse this matrix. The matrix is stored in a one dimensional char array. The length of each row is given.
+How do you improve your solution when handling large amount of data?
+---
+How do you add two numbers that are larger/longer than Integer datatype? I said I would use BigInteger , then he asked how will you add if the number is larger than BigInteger?
+---
+Given a list of integers that fall within a known short but unknown range of values, how to find the median value?
+Some say we could use selection algorithm. But that will take O(n/2 * n), which results in O(n^2). I don't know how it is a good solution.
+---
+Program an iterator for a Linked List which may include nodes which are nested within other nodes. i.e. (1)->(2)->(3(4))->((5)(6). Iterator returns 1->2->3->4->5->6
+---
+Given a line length insert white space so text is uniformly displayed within the given length
+---
+What is mean by non blocking thread safe? Is it different from thread safe blokcing? Code a non blocking thread safe queue in Java
+---
+You are given an array, divide it into 2 equal halves such that the sum of those 2 halves are equal. (Imagine that such division is possible for the input array and array size is even)
+---
+Given an integer, find the next highest and next lowest integers, with equal number of 1s in their binary representation as the original number.
+---
+i am working on project and we want to access ASCII value of string at some index But we don't want access chat at index and parse it to integer
+
+Example:- char character = s.charAt(8);
+int ASCII = (int) character;
+
+is there any other way to do same without converting to char?? and what will be time complexity? is there any built in function in java ? i don't know how char store in memory please anyone can explain me ? and how to handle Unicode without converting to char ??
+
+Thanks!!
+---
+How would you model the animal kingdom (with species and their behavior) as a class system?
+---
+How would you model the animal kingdom (with species and their behavior) as a class system? Java
+---
+How would you model the animal kingdom (with species and their behavior) as a class system?
+---
+what is time complexity of concatenating two int in java example :-
+
+int a=18965;
+int b=78521369741;
+after concatenation i want ans in primitive integer data types like,
+
+int c=1896578521369741;
+i want to know what is the fastest way to do this and what will be the time complexity ?
+---
+You're given a machine (Let's say a sprinkler). The machine is controlled with a software component that has UI. The user can set different parameters in the UI. for example : 'speed' : 120 'pressure' : 30
+Change the system so it will accept an arithmetical expression in the UI. The expression can contain constants, parameters (e.g 'speed') and operators.
+---
+You need to develop the game Snake. What data structures will you use? Code your solution.
+---
+Provide a system design for real world URL shortener (solution must scale to millions of users). Back up your assumptions with real numbers.
+---
+Given a sorted array of integers, write a function that will return the number with the biggest number of repetitions. 
+(Asked to refine the solution to be more efficient)
+---
+Given a board made of 2 x n squares, and boards made of 2 x 1 squares, write a function that will calculate the number of possible ways to arrange the 2 x 1 boards on the 2 x n board, in a way that will fill it completely.  
+(Asked to refine the solution to be more efficient)
+---
+Design a Rubik's Cube, including backend database portion.
+---
+Write a program to return list of words (from the given list of words) that can be formed from the list of given characters. This is like Scribble game. Say for example the given characters are ('a' , 'c' , 't' } and list the words are {'cat', 'act', 'ac', 'stop' , 'cac'}. The program should return only the words that can be formed from given letters. Here the output should be {'cat', 'act', 'ac'}.
+---
+Implement a circular queue of integers of user-specified size using a simple array. Provide routines to initialize(), enqueue() and dequeue() the queue. Make it thread safe.
+---
+Write a function that receives three integer inputs for the lengths of the sides of a triangle and returns one of four values to determine the triangle type (1=scalene, 2=isosceles, 3=equilateral, 4=error). Generate test cases for the function assuming another developer coded the function
+---
+Given two sorted array in ascending order with same length N, calculate the first K min a[i]+b[j]. time complexty O(N).
+some misunderstood first K, to put it straight, to find the Kth min, not the first min
+---
+Given a huge N*N matrix, we need to query the GCD of numbers in any given submatrix range（x1,y1,x2,y2）. Design a way to preprocess the matrix to accelerate the query speed. extra space should be less than O(N^2) and the preprocess time complexity should be as litte as possible.
+---
+A soda water machine,press button A can generate 300-310ml, button B can generate 400-420ml and button C can generate 500-515ml, then given a number range [min, max], tell if all the numers of water in the range can be generated.
+---
+Given an input file, find the line with the most vowels ( Easy)
+
+Followup:
+Given an input file and any criteria write a function that will find the best score line and return it. 
+(He told me the best score can be anything, min/max/(anything that can be measured) of the criteria).
+---
+Given a amount and several denominations of coins, find all possible ways that amount can be formed? eg amount = 5, denominations = 1,2,3.     
+Ans- 5 ways
+1) 1,1,1,1,1 
+2) 1,1,1,2 (combinations aren't counted eg 1,2,1,1 etc)
+3) 1,1,3 
+4) 1,2,2 
+5) 2,3
+---
+Question: You are given a CSV file with 3 columns -- all integers: 
+
+id,parent,weight 
+10,30,1 
+30,0,10 
+20,30,2 
+50,40,3
+40,30,4
+
+0 is the assumed root node with weight 0
+
+which describes a tree-like structure -- each line is a node, 'parent' refers to 'id' of another node. 
+
+Print out, for each node, the total weight of a subtree below this node (by convention, the weight of a subtree for node X includes the own weight of X). 
+
+You may assume that the input comes pre-parsed as a sequence of Node objects 
+(substitute the appropriate syntax for java/python/c++): 
+
+Node {
+  int id; 
+  int parent; 
+  int weight;
+  // ... you can add other fields right here, if necessary 
+}
+
+implement the following:
+public void printSubTreeWeight(List<Node> nodes) {
+....}
+---
+Suppose you have N machines connected to a network.
+Now you generate a new file on one machine, and want to sync up across all machines. please design a system to accomplish this task and also analyze the error tolerance issue.
+---
+Sorry
+---
+Given two log files, each with a billion usernames (each username appended to the log file), find the usernames existing in both documents?
+---
+design a system to return an unique ID for each request. For most of requests, the ID value should increase as time goes, the system should handle 1000 requests per second at least.
+timestamps alone is not valid since there might be multiple requests with same timestamps.
+---
+Given the array of digits (0 is also allowed), what is the minimal sum of two integers that are made of the digits contained in the array. 
+For example, array: 1 2 7 8 9. The min sum (129 + 78) should be 207
+---
+Everyone knows that finding a loop in the single linked list is using runner and follower method. Could you provide mathematical proof of correctness for it and why it works.  I said something like induction hypothesis. Someone help me with the correct answer.
+---
+How will you find if a string is a substring of another string in O(n) complexity. For example, "tl" is substring of bottle.
+---
+suppose a string is consists of a, b, and c
+Now given a integer N, output the amount of all possible strings of length N that don't of have consecutive a,b,c.
+e.g. given N=5, string bacca is invalid since the first 3 letters have consecutive a,b,c. and bbbbb is valid.
+---
+Suppose there were n numbers in an array S1, S2, S3, S4.......SN rearrange them in a such a way that they satisfy bellow property.
+                                           S1<S2>S3<S4>......
+---
+Q: Design a component that will implement web browser history. the user goes to different site and once he press on history button you should display the last 5 (no duplicates allowed, and 5 can be any N later) if duplicates occur display the most recent one. so if user visit : G,A,B,C,A,Y and than press "history" we will display Y,A,C,B,G. and of course he can go later to two other websites and than press "history" we will show them than the previous 3. 
+A: I solved it with stack, list and hash table in O(n) but it was too complicated and I didn't like my solution. please suggest something simpler.
+---
+given a dictionary of wrods,find the pair of word with following property:
+1,the two word don't have same letter.
+2,the multiple of the two word's length is maximum.
+i give a simple O(n*n*k)(k is the average length of word) method.but i think there will be better one .
+---
+Given two aligned sequences `a` and `b`. Write a function "findCommon", that finds the longest substring of the longer sequence that align to the smaller sequence in such a way that the alignment length (matching length) can be maximized. Sequences initially were of different lengths but the smaller one is padded with hyphen ('-') after alignment to make it equal to the longer sequence. The length of longer sequence is known in advance (m, which is same for the smaller padded sequence). The output is always the subsequence of the longer string.
+
+The total number of such operations to be done is in billions. 
+
+
+
+   findCommon(a, b, m)
+
+
+Example 1:
+
+    a = ------bixg--
+    b = xxxxxxbi-gzz
+    m = 12
+
+    output: big
+
+
+Example 2:
+    a = xxxxxxbxigxx
+    b = ------b-ig--
+    m = 12
+
+    output = bxig
+
+
+Example 3:
+    a = bigxxxxxxxxx
+    b = bi-x--------
+    m = 12
+
+    output = bigx
+---
+Given an array of pairs of the form <a, b>. We have to find a sub-array such that the 1st element in the pairs are in increasing order and the sum of 2nd element of the pairs in the sub-array is maximum possible
+---
+Given N strings, find the smallest string in lexicographic order which contains all the given strings as subsequences
+---
+Implement HashTable in java , especially hash function that should take care of any type of keys. The key may be integer or String or Object. But based on that the hash function should find index in the hashArray
+---
+Implement Array Class in java.
+---
+Suppose I have some (lng, lat) coordinate. I also have a big list of ranges,
+
+[ { northeast: {lng, lat}, southwest: {lng, lat} } ... ]
+
+How can I most efficiently determine which bucket the (lng, lat) point goes into?
+
+Also, on a design perspective. Would it make more sense for the "list of ranges" to be on some database like mysql, monodb, or on something like memcached, redis?
+---
+You visited a list of places recently, but you do not remember the
+order in which you visited them. You have with you the airplane
+tickets that you used for travelling. Each ticket contains just the
+start location and the end location. Can you reconstruct your journey?
+---
+Given two Btrees. these trees "may" have right and left branches swapped. Now compare it
+---
+Implement below function.
+int getRandom(int N, int K[]) 
+
+Constraints: 
+->K is sorted and contains elements in range [0,N)
+->Output should be a random number between [0,N) excuding elements from K
+->probability of generated number should be 1/(N-K.length) and not 1/N
+-->int uniform(int N) is given which returns random number [0,N) with 1/N probability for each number.
+->No more than O(1) memory
+->No more than O(N) time
+
+Below is my solution but it uses O(N) space.
+---
+
+---
+
+---
+Tossing a coin ten times resulted in 8 heads and 2 tails. How would you analyze whether a coin is fair? What is the p-value?
+In addition, more coins are added to this experiment. Now you have 10 coins. You toss each coin 10 times (100 tosses in total) and observe results. Would you modify your approach to the the way you test the fairness of coins?
+---
+Find numbers which are palindromic in both their decimal and octal representations
+---
+Engineers at Google have decided to call any integer (+ve, -ve or 0) that is divisible by at least one of the single digit primes ..."
+var str = ""; for (var i = 0; i < content.length; ++i) { str += $(content[i]).text(); str+= "\n---\n"; }; str
+"Implement below function.
+int getRandom(int N, int K[]) 
+
+Constraints: 
+->K is sorted and contains elements in range [0,N)
+->Output should be a random number between [0,N) excuding elements from K
+->probability of generated number should be 1/(N-K.length) and not 1/N
+-->int uniform(int N) is given which returns random number [0,N) with 1/N probability for each number.
+->No more than O(1) memory
+->No more than O(N) time
+
+Below is my solution but it uses O(N) space.
+---
+
+---
+
+---
+Tossing a coin ten times resulted in 8 heads and 2 tails. How would you analyze whether a coin is fair? What is the p-value?
+In addition, more coins are added to this experiment. Now you have 10 coins. You toss each coin 10 times (100 tosses in total) and observe results. Would you modify your approach to the the way you test the fairness of coins?
+---
+Find numbers which are palindromic in both their decimal and octal representations
+---
+Engineers at Google have decided to call any integer (+ve, -ve or 0) that is divisible by at least one of the single digit primes (2, 3, 5, 7) as Walprimes. Thus -21, -30, 0, 5, 14 etc are Walprimes, while -121, 1, 143 etc. are not Walprimes.
+Now, consider a n-digit integer d1d2d3..dn. Between any 2 consecutive digits you can place either a (+) sign, a (-) sign or nothing. So, there are 3n-1 different expressions that can be formed from it. Some of the expressions so formed may evaluate to a Walprime. For example, consider the 6 digit integer 123456: 1 + 234 - 5 + 6 = 236, which is a Walprime, but 123 + 4 - 56 = 71, which is not a Walprime.
+Your task is to write a program to find the no. of expressions (out of the possible 3n-1 expressions) that evaluate to a Walprime, for a given input. Note that leading zeroes are valid. For example, if the input is 1202004, it can be split as 12 + 020 - 04 etc. Also, the input itself can contain leading zeroes.
+Input format: (Read from stdin)
+The first line of input contains a single integer 'T' denoting the no. of test cases.
+Each of the following 'T' lines contain a single string 's' (of length 'n') denoting an input for which you need to find the no. of valid expressions evaluating to a Walprime.
+Output format: (Write to stdout)
+Output exactly 'T' integers (one per line), where the ith line denotes the no. of valid expressions that evaluate to a Walprime for the ith input string. Since the output can be large, print all the quantities modulo 1000000007.
+Sample testcase:
+Input:
+2
+011
+12345
+Output:
+6
+64
+Explanation:
+For the first test case, s = "011". There are 32 = 9 valid expressions that can be formed from this string, namely {0+11, 0-11, 0+1+1, 0+1-1, 0-1+1, 0-1-1, 01+1, 01-1, 011} . Out of these 9 expressions, only the following 6 of them evaluate to a Walprime: {0+1+1, 0+1-1, 0-1+1, 0-1-1, 01+1, 01-1}.
+Constraints:
+There are 3 data sets.
+For the first data set (5 points) -
+1
+For the second data set (10 points) -
+1
+For the third data set (15 points) -
+1
+---
+Given a binary representation of an integer say 15 as 1111, find the  maximum longest continous sequence of 0s. The twist is it needs to be done in log N. I could think of O(N) solution. but couldn't go for log(N).
+
+For example. 10000101
+the answer should be 4, because there are 4 continouos zeroes.
+---
+4 individual numbers which could be permuted in 4 factorial ways. permutation of these 4 integers is an 0indexedarray consisting of 4 digits in some order when integers are different. the best permute of the 4 integers is by the following funciton  func(summ) = abs(summ[0] - summ[1]) + abs(summ[1] - summ[2] + abs(summ[2] - summ[3])) that would give maximum value.
+
+method signature 
+public int answer(int w, int x, int y, int z){
+
+}
+
+w = 5
+x = 3
+y = -1
+z = 5
+
+the sample permute wiht given numbers in the given function that would give maximum value is as follows.
+
+for the 
+summ[0] =  5
+summ[1] = -1
+summ[2] = 5 
+summ[3] = 3
+
+This should be done in O(1)time ans space complexity. My questions wordings may be confusing, but the function and sample data are perfectly correct.
+---
+You have two integer arrays. Treat these arrays as if they were big numbers, with one digit in each slot. Perform addition on these two arrays and store the results in a new array.
+---
+In a language, there are only 4 characters ‘h’, ‘i’,’r’, ‘e’. and we have to write a function which takes a string as input and returns whether the given input string is a “valid word” or not.
+
+Definition of valid word :
+1. A given word is a valid word if it is of the form h^n i^n r^n e^n  where n >=1. (eg: hhiirree)
+2. Valid words has concatenation property i.e. if w1 and w2 are valid words w1w2 is also a valid word.
+---
+Suppose the sub-requests can be queued at each server, and the servers are running all the time. Discuss feasible on-line algorithms that can achieve sub-optimal solutions with N ~ 10000.
+---
+What is the in order successor of 6 in the given BST? (Ah! This is not an assignment. I am a working professional).
+
+         4
+    2         6
+ 1    3  5   
+      4.5  5.5 
+2 is left child of 4 and 6 is right child of 4.
+1 is left child of 2 and 3 is right child of 3.
+5 is left child of 6.
+4.5 is left child of 5 and 5.5 is right child of 5.
+---
+How many times “Hello World” is printed by following program?
+int main()
+{ 
+  if(fork() && fork())
+  { 
+    fork();
+  }
+   if(fork() || fork())
+  { 
+    fork();
+  }
+
+  printf(“Hello world”);
+  return 0;
+}
+
+a. 16
+b. 20
+c. 24
+d. 64
+---
+How to find if a  number is power of 4 in O(loglogn).
+---
+Find if 2 lists of rectangle are exactly equal. How would you sort the lists?
+---
+Q: Given a sorted 2D N x N array (where array[i][j] < array[i][j+1] and array[i][j] < array[i+1][j]), can you write a function that converts this to a sorted 1D array?
+
+The obvious and naive way that I thought of was to convert the entire array into a 1D and do a mergesort on it, but there must be a better way than that.  I'm wondering what the better and more efficient way is.
+---
+An arraylist containing datatype studentsScores are given where studentId, and results are twostates of this datatype. Each student takes more than 10 exams. We need to return the averages score of each student as a Map<student, average score> where the average score is calculated by taking the average of top 5 exams of a student.
+First we iterate the arraylist and create another Map<Integer, ArrayList<>> where the inner ArrayList has values of test scores. Iterating the arrayList to find avergae score and adding it to the another Map<student, averageScore>. What is the complexity of this?
+---
+Complete the below function which takes an arraylist and displays the list in the expected output
+
+public class TreePrinter {
+public static void printTree(Iterable<Relation> rs) {
+// your code
+
+}
+}
+
+  public static class Relation {
+    String parent;
+    String child;
+    public Relation(String parent, String child) { ... }
+}
+}
+
+Example input:
+List<Relation> input = newArrayList();
+
+input.add(new Relation(“animal”, “mammal”));
+input.add(new Relation(“animal”, “bird”));
+input.add(new Relation(“lifeform”, “animal”));
+input.add(new Relation(“cat”, “lion”));
+input.add(new Relation(“mammal”, “cat”));
+input.add(new Relation(“animal”, “fish”));
+
+TreePrinter.printTree(input);
+
+Expected output:
+ line 1: lifeform
+line 2:   animal
+line 3:     mammal
+line 4:       cat
+line 5:         lion
+line 6:     bird
+line 7:     fish
+---
+Implement an algorithm to print all possible valid combinations of braces when n pairs of paranthesis are given.
+
+I tried this code executing. I checked with System.out.println statements too. But I couldn't understand how this prints ( ( ) ). I have two questions. 
+
+1) If we give count as 2, this code should generate only ( )( ). But how does it go for another execution of whole addParen to generate (( ))
+
+2) The second if block(that is, if(rightRem > leftRem) within the else block of allParen is always after if(leftRem > 0), then how come this is able to generate 
+( ( ) )
+
+public static void addParen(ArrayList<String> list, int leftRem, int rightRem, char[] str, int count) {
+      if (leftRem < 0 || rightRem < leftRem) return; // invalid state
+        
+    if (leftRem == 0 && rightRem == 0) { /* all out of left and right parentheses */
+      String s = String.copyValueOf(str);
+         //    System.out.println(str);
+      list.add(s);
+    } else {
+      if (leftRem > 0) { // try a left paren, if there are some available
+        str[count] = '(';
+               
+        addParen(list, leftRem - 1, rightRem, str, count + 1);
+      }
+      if (rightRem > leftRem) { // try a right paren, if there’s a matching left
+        str[count] = ')';
+               // System.out.println(str);
+        addParen(list, leftRem, rightRem - 1, str, count + 1);
+      }
+    }
+  }
+
+  public static ArrayList<String> generateParens(int count) {
+    char[] str = new char[count*2];
+    ArrayList<String> list = new ArrayList<String>();
+    addParen(list, count, count, str, 0);
+     
+    return list;
+  }
+
+public static void main(String args[]) {
+
+ArrayList<String> list = generateParens(2);
+        for (String s : list) {
+            System.out.println(s);
+        }
+        System.out.println(list.size());
+    
+}
+}
+---
+You have been given a series of 'n' numbers and the series is in a random order. Write a program to find the median of the series with minimum complexity.
+---
+Finding the minimum in a BST. 
+
+The known solution is
+public Node minimum(){
+  Node current, last;
+  current = root;
+  while(current != null){
+    last = current;
+    current = current.left;
+  } 
+ return last;
+}
+
+The above code doesn't find 0.5 as the minimum.
+
+1 and 3 are children of 2, 0.5 is left child of 3 and 3.5 is right child of 3
+                                  2
+                               /    \
+                           1          3
+                                     /    \
+                                  0.5   3.5
+---
+Check if a binary tree is BST.
+
+I know the solution but I want to know will this code work
+
+public boolean IsBST(Node root){
+    
+ 
+  
+
+    if(root.left <= root && root.right > root){
+        IsBST(root.left);
+
+        IsBST(root.right);
+    }else{
+        return false;
+    }
+    
+    return true;
+}
+---
+Input - array of integers size N, integer Threshold.  Output - the number of pairs (x, y) of distinct elements with condition x + y <= Threshold. Is that possible to implement it with O(n) ?
+---
+you are given n-strings 1you have to find whether a chain can be termed with all the strings given number n? A chain can be formed b/w strings if last char of the 1st string matches with 1st char of second string. For example you are given
+
+number of strings = 3
+
+first string=sdfg
+
+second string=dfgs
+
+third string=ghjhk
+
+they can be concatenated as ->
+
+second first third
+
+dfgs sdfg ghjhk (characters at concatenation points are same)
+
+so concatenated string is-dfgsdfghjhk
+---
+Rotate a M*N matrix by 90 degree.
+
+Is this answer right? 
+
+public void rotateMN(int[][] input){ 
+
+int i = input.length; 
+int j = input[0].length; 
+
+int m = j; 
+int n = i; 
+
+int[][] newArray = new int[m][n]; 
+
+for(int j = input[0].length-1, m=0; ;i--, m++ ){ 
+for(int i = input.length-1, n=0; i >= 0 ; i--, n++){ 
+
+newArray[m][n] = input[i][j]; 
+
+} 
+} 
+
+} 
+
+
+Will this also work for N*N matrix rotation by 90 degrees? 
+
+The time complexity is O(N) since it just traverse the input matrix and copy it to the new matrix. The space complexity is (MN) + (MN) = So MN. 
+
+Is it possible to do rotation for M * N matrix in space? If so please provide that answer 
+Whats this space and time complexity?
+---
+In what situations bubble sort, selection sort, insertion sort, merge sort, quick sort and heap sort will have best time complexity. Provide example for each sort and explain
+---
+1000 elements in one bag and 1 million elements in another. how do you find common elements among them. Also give the complexity of your solution.
+---
+Write a class DominoChecker that has a method called addBox(int[]) that takes a box of five dominoes, described as a list of 10 integers (explained after), adds it to a collection, and returns true if a box with the same dominoes was already in the collection and false otherwise. A box of dominoes is encoded as a list of 10 integers from 0 to 9, where a pair of numbers represent a domino. For example: 0,2,9,1,3,3,7,4,5,6 represents a box containing dominoes: (0,2); (9,1); (3,3); (7,4); (5,6).  http://en.wikipedia.org/wiki/Dominoes for more basic info (like pictures)
+---
+Given 2 quad-trees find the intersection of black-pixels.
+---
+Define a quad-tree for a black and white image. Count the number the of black pixels.
+---
+Given a large network of computers, each keeping log files of visited urls, find the top ten of the most visited urls.
+(i.e. have many large <string (url) -> int (visits)> maps, calculate implicitly <string (url) -> int (sum of visits among all distributed maps), and get the top ten in the combined map)
+
+The result list must be exact, and the maps are too large to transmit over the network (especially sending all of them to a central server or using MapReduce directly, is not allowed)
+---
+Having an infinite stream of numbers write a function to take an element with equal probability for each.
+---
+Given a class of block reader, read in unlimited string flow.
+---
+You are given a grid, with points on the intersections (think a map of streets, people are standing on random corners). Write code to calculate the point on the grid that is the shortest distance from every point on the grid.
+---
+Given a set top box:
+a, b, c, d, e,
+f, g, h, i, j,
+k, l, m, n, o
+p, q, r, s, t
+u, v, w, x, y
+z
+
+Write code to give the character sequence given a word, For example, if the word is "CON", the function will print this:
+Right//now we're at B
+Right//now we're at C
+OK//to select C
+Down
+DOwn
+Right
+Right
+OK//to select O
+Left//now at N
+OK//to select N
+
+note: Be careful when you're at Z. if you go to the right, you will get stuck.
+Afterwards, the interviewer adds a space to the right of 'Z' to test the code.
+---
+Design and implement a class, which returns a random string value from a set with an arbitrary probability distribution given by an array of probabilities. Using an existing random number generator with a uniform distribution(e.g., Random.nextFloat()), you return the string for the random float value based on the strings probability distribution.
+---
+design a method which consumes an integer and output the corresponding column number in Microsoft Excel ( ex. A, B, C......Z, AA, AB....ZZ....)
+---
+Find largest palindrome in a file without altering the file (like deleting white spaces). 
+The palindrome def is relaxed - it allows for spaces in between words- do not bother about spaces.
+---
+Input : A Perl program file
+We need to modify the file to have a max of 80 characters per line and create a new perl file.
+Problem is we need to use "/" wherever we split the line and also, the split MUST happen at a place with white space. (ASSUMPTION - No is >75 characters)
+---
+Explain a load balancer data structure and algorithm.
+---
+Explain a data structure for routing table and matching a route based on longest prefix match.
+---
+Given a tree (not necessary a Binary Tree) print (draw) the tree in original structure with proper formatting.
+---
+Implement a  Boolean vector: T, F, F, T, F, … with the following operations:
+append(boolean b)
+boolean get(int index)
+set(int index, boolean b)
+int length()
+Restriction: no Java collections classes
+
+What if you knew the vector has 99.99% T and only 0.01% False. How would you change the approach?
+---
+There are n bombs in a big circle,and each bomb has a value and a 'effect range'.If you detonated a bomb,you will get this bomb's value,but a bomb can have effect on the neighbors which the distance(difference between index) between them is smaller than the 'effect range'.It's say that the neighbor bomb will be destoryed and you could not get their values.
+You will given each bomb's value and the 'effect range',and you need calculate the max value you can get.
+eg. n=3 index 0's bomb' v is 2,range is 0(will not effect others).and v[1]=1,r[1]=1,v[2]=3,r[2]=1;
+this case's max value is 5.(detonate the 0's and than the 2's).
+
+HELP ME.
+ps: It's a interval DP.
+---
+Given a weighted directed graph with n vertices where edge weights are integers (positive, zero, or
+negative), determining whether there are paths of arbitrarily large weight can be performed in time
+(a) O(n)
+(b) O(n · log(n)) but not O(n)
+(c) O(n1.5) but not O(n log n)
+(d) O(n3) but not O(n1.5)
+(e) O(2n) but not O(n3)
+---
+How does a search engine perform exact phrase search? i.e. search for the term "the bees knees" exactly.
+---
+Give you an array which has n integers,it has both  positive and negative integers.Now you need sort this array in a special way.After that,the negative integers should in the front,and the positive integers should in the back.Also the relative position should not be changed.
+eg. -1 1 3 -2 2 ans: -1 -2 1 3 2.
+ o(n)time complexity and o(1) space complexity is perfect.
+---
+Given a tree in the form of parent pointers of every node (for root assume parent pointer to be null), write code to find the diameter of tree.
+---
+Write a method to determine if two strings are anagrams of each other.
+e.g. isAnagram(“secure”, “rescue”) → false
+e.g. isAnagram(“conifers”, “fir cones”) → true
+e.g. isAnagram(“google”, “facebook”) → false
+---
+Rearrange an array using swap with 0.
+
+You have two arrays src, tgt, containing two permutations of the numbers 0..n-1. You would like to rearrange src so that it equals tgt. The only allowed operations is “swap a number with 0”, e.g. {1,0,2,3} -> {1,3,2,0} (“swap 3 with 0”). Write a program that prints to stdout the list of required operations.
+
+Practical application:
+
+Imagine you have a parking place with n slots and n-1 cars numbered from 1..n-1. The free slot is represented by 0 in the problem. If you want to rearrange the cars, you can only move one car at a time into the empty slot, which is equivalent to “swap a number with 0”.
+
+Example:
+src={1,0,2,3}; tgt={0,2,3,1};
+---
+Consider a hash table with M slots. Suppose hash value is uniformly distributed between 1 to M, and it uses linked list to handle conflicts (if two keys hashed to the same slot). Suppose we put N keys into this M-slotted hash table, what is the probability that there will be a slot with i elements? i could vary from 0 to N.
+---
+how to merge two binary search tree into  balanced binary search tree.. Let there be m elements in first tree and n elements in the other tree. Your merge function should take O(m+n) time with in constant space.
+
+Examples:
+
+
+ A Balanced BST 1
+     90
+   /  \
+  70    110 
+
+
+ A Balanced BST  2
+
+      60
+    /  \
+   5    800
+ 
+output :-->     
+                        70
+       /            \
+                 60            90
+                /                    \
+               5      800
+---
+How to find medium of 1 billion numbers across N distributed machines efficiently?
+---
+I have a list of several million words unsorted.
+
+How can you find the largest and the smallest words that can be typed by a single hand on a qwerty-style keyboard?  Following the rules of finger placement, a word can either be typed fully on the left-hand side of the keyboard, the right-hand side, or both.  Find the largest and smallest left-hand word(s), and the largest and smallest right-hand word(s).
+
+
+given: millions of words, unsorted
+given: set of left-hand chars - a,s,d,f,...
+given: set of right-hand chars - j,k,l...
+---
+You are given two array, first array contain integer which represent heights of persons and second array contain how many persons in front of him are standing who are greater than him in term of height and forming a queue. Ex
+A: 3 2 1
+B: 0 1 1
+It means in front of person of height 3 there is no person standing, person of height 2 there is one person in front of him who has greater height then he, similar to person of height 1. Your task to arrange them
+Ouput should be.
+3 1 2
+Here - 3 is at front, 1 has 3 in front ,2 has 1 and 3 in front.
+---
+/*
+
+Random set of WORD.
+
+Criterion : Given a word find out if the word can be broken into smaller word, by removing one alphabet at a time. 
+a) all such word should be valid dictionary word.( Assume a function is there to test whether the word exist in dictionary)
+b) Remove one alphabet at a time but the new word need to be in dictionary.
+
+For eg :
+restated -> restate -> estate -> state -> stat -> sat -> at -> a
+fullfill the criterion. ( single alphabet assume belong to dict)
+My solution below. I assume it can be done using dynamic programming or trie data structure
+*/
+---
+We have two strings: a normal alphanumeric string and a pattern string. the pattern string can be composed by alphanumeric chars plus the char "?" and "*"
+
+We want to check if the first string match the pattern, where the ? means that every char (alphanumeric) is permitted in that position, while * allows to have a sequence of alphanumeric chars.
+
+
+as test we want to check that the function returns true to the following calls.
+
+isMatching("abab","abab")
+isMatching("abab","a**b")
+isMatching("ababab","ab*b")
+isMatching("","*")
+isMatching("aaaaaab","*?*b")
+
+i found this question hard, since the language we want to parse is not L1 (there's an ambiguity in the parsing tree) it means that a backtrack modality must be implemented.
+
+Took me a while to find a reasonable solution (that, to be honest i was not happy with)
+---
+
+---
+
+---
+Given an equation in the form 2^i * 3^j * 5^k * 7^l where i,j,k,l >=0 are integers.write a program to generate numbers from that equation in sorted order efficiently.
+
+for example numbers from that equation will be in the order 2,3,5,6,7,8,9.....and so on..
+---
+Longest increasing subsequence:
+
+Given n numbers A1..An determine subsequence of maximum length values in the subsequence form a strictly increasing sequence.
+
+ex: input 5,2,6,3,4,1,9,9,8,9,5
+output: 2,3,4,8,9
+---
+calculate (x^y)%z without pow();
+---
+you have data provided to you in pairs. the relationship is that the 2nd element is a child of the first element. 
+print out the final output with tabs as shown in examples below
+
+input:  <a,b>
+output:   a
+      b
+
+input:  <a,b> <b,c> <d,c>
+output:   a
+      b
+      d
+        c
+
+input:  <a,b> <c,d>
+output: a
+    c
+      b
+      d
+---
+Find the shortest path between two nodes in a graph, given only the start node and the end node as parameters.
+---
+Given a list of integers, find out the biggest interval that has all its members in the given list. e.g. given list 1, 7, 4, 6, 3, 10, 2 then answer would be [1, 4]. Develop algorithm and write code for this
+---
+Write code to clone a graph recursively
+---
+
+---
+
+---
+What suggestions you can provide for improving the Page Rank algorithm.
+---
+Given N integer array, I want to fill the array with product of all numbers except the number in that cell. 
+What is the complexity ? Do not worry about 0's or negative numbers in the array.
+[Interviewer was more interested in how the multiplication/division gets effected as number of bits required to represent the intermediate products increases.]
+---
+Given a screen with all pixels having one of two colors. Now I will click on a random pixel. 
+Then that pixel & all the adjacent pixels with same color should change the color to the second color.
+
+adjacent = vertically or horizontally above or blow.
+
+Edit: Question seem to be not clear to some ppl. Giving an ex:
+
+Given below & clicked on 2nd row, 2nd col
+W B W W B W
+B B W W B W
+W B B B W B
+W B W W B B
+
+Covert to 
+W W W W B W
+W W W W B W
+W W W W W B
+W W W W B B
+---
+Define a class to represent a graph which supports following opertations
+addEdge(Node n1,Node n2)
+addNode(Object nodeData)
+
+How do you differentiate between an edge n1->n2 and n2->n1
+---
+Given a string pattern of 0s, 1s, and ?s (wildcards), generate all 0-1 strings that match this pattern.
+e.g. 1?00?101 -> [10000101, 10001101, 11000101, 11001101].
+You can generate the strings in any order that suits you.
+---
+A binary search tree is given. Find the ceiling value present in the BST  of a given key.
+
+eg-
+---
+
+---
+
+---
+key - 13 => 15
+key - 4 =>6
+key - 8 =>10
+---
+How many  unique words(does not required to have meaning) can you generate from a "EFFICIENT" word
+---
+Given a server that has requests coming in. Design a data structure such that you can fetch the count of the number requests in the last second, minute and hour.
+---
+Given an 8x8 chess board, you have a bishop that moves from the current to the target position. write a code to find the minimum path from the current to the target position.
+---
+Design an API that will support constant time add, remove, search and random find operations.  Random find will get a random number and return that element.  Note: Only hash map will not be sufficient since it cannot support random read.
+---
+Given a family tree for a few generations for the entire population and two people write a routine that will find out if they are blood related.  Siblings are blood related since they have the same parents.  Cousins are blood related since one of their parents have the same parents etc.  Design the data structure first and then write the routine.
+---
+Given multiple stream of input numbers each of which may not fit in memory (we can assume each source to be individually sorted) give an API design to merge and store a fully sorted array. Design must be object oriented which can handle any number of input source types.  Obviously output also cannot fit in memory.
+---
+Given a sequence of numbers such that A[0] >= A[1] and A[N-1] >= A[N-2] find at-least one triplet such that A[n-1] >= A[n]  <= A[n+1].  Better than linear time is expected.
+
+Example: 9 8 5 4 3 2 6 7
+Answer: 3 2 6
+---
+Find the majority number in a given sequence of numbers (a number that occurs more than N/2 times where N is the count of numbers in the sequence).  Don't maintain a map of all occurring numbers along with a count.  No number may be a majority.
+
+Example: 1 1 2 3 4 1 6 1 7 1 1
+Majority number is 1 since it occurs 6 times (> 11/2)
+---
+Given a file with a set of space separated numbers in a file write a program to remove duplicate rows.  Two rows are duplicate if they contain the same numbers regardless of the order in which they occur.  Constant time algorithm expected.  LogN time is not good enough.
+
+Given file:
+1 2 3 4 5
+3 6 7 8 9
+2 4 7
+1 5 3 2 4
+
+Answer expected:
+1 2 3 4 5
+3 6 7 8 9
+2 4 7
+---
+Given 7 letter tiles and a dictionary of valid words, return the set of words that can be generated using 1-7 of those tiles.
+Example:
+letter tiles: SAPAPER
+word dictionary: A AA AAA APE PEA PARE PEAR FEAR SPARE APPEARS REAPPEARS
+would return: A AA APE PEA PARE PEAR SPARE APPEARS
+---
+Employees in my company are complaining about elevator, saying its too slow...  Lift operates for 50 floors
+
+I hire you and you have to tell me what is the problem and solutions to it.
+
+Input:
+Motor can't be changed
+You can't get a new elevator as its too costly.
+
+Get 5 matrices you would collect and how would you use them.
+---
+How would you design a movie search engine.
+
+Think about both abstract and specific questions. How would you answer each of them.
+
+ex: get me romantic movies, latest movies, movies with fight of no more than 10 mins.
+---
+How would you determine if ads clicks are coming through a human being or not (it could be a program, virus etc.)
+
+Identify 5 parameters and how would you use each of them.
+---
+Given a set of numbers, find the longest subset with consecutive numbers be it any order.
+
+Input:
+S = { 5, 1, 9, 3, 8, 20, 4, 10, 2, 11, 3}
+
+we have 2 consecutive sets
+s1 = {1, 2, 3, 4, 5}
+s2 = { 8, 9, 10, 11}
+
+Ans. 
+s1 = {1, 2, 3, 4, 5}
+---
+Given an array of integers. Find two disjoint contiguous sub-arrays such that the absolute difference between the sum of two sub-array is maximum.
+* The sub-arrays should not overlap.
+
+eg- [2 -1 -2 1 -4 2 8] ans - (-1 -2 1 -4) (2 8), diff = 16
+
+I gave him o(n^2) algorithm but he was not satisfied.
+---
+In a certain language which has same alphabets as in english language (ie.  a-z), but the order of the alphabets is different (for eg 's' is the first character, 'g' is second, and likewise). Given a dictionary of this new language (which has words arranged according to new alphabetical order), FInd out the order of alphabets in this language.
+---
+d1 = a1*x1 + b1*x2 + c1*x3
+d2 = a2*x1 + b2*x2 + c2*x3
+d3 = a3*x1 + b3*x2 + c3*x3
+
+Knowing all of a,b,c,d, find x1, x2, x3. As you might notice, this is high school math. But it's hard to write the code for solving it.
+
+/*
+/a1 b1 c1| /x1| /d1|
+|a2 b2 c2|*|x2|=|d2|
+|a3 b3 c3/ |x3/ |d3|
+*/
+double A[3][3], X[3], D[3];
+X[0] = ?
+X[1] = ?
+X[2] = ?
+---
+Given a 2D rectangular matrix of boolean values, write a function which returns whether or not the matrix is the same when rotated 180 degrees.
+---
+Given a 'friendship' graph, how would you generate friend suggestions for people, and how would you distribute the data across machines?
+---
+Design a counter across all Google's servers.
+---
+You are given a doubly linked list and an array of references to nodes on the linked list. How many "blocks" are there present in the linked list? 
+
+A "block" is defined as a group of nodes on the list with references directed at them and adjacent to eachother. 
+
+For example
+
+[node #0] -><-[node#1] -><-[node#2] -><-[node#3]
+
+node[] nodes = {ref_to_node#0, ref_to_node#2, ref_to_node#3};
+
+Is two blocks because the first block is at node #0.
+Node #1 has no incomming reference. Node #2 and Node #3 have references are are adjacent so it's just one block.
+
+Implement using JAVA: Hint: You can try using a HashMap.
+
+Thanks.
+---
+Give me real time application of BST.....
+---
+
+Eliminate all ‘b’ and ‘ac’ in an array of characters, you have to replace them in-place, and you are only allowed to iterate over the char array once.
+
+Examples:
+abc -> ac
+ac->''
+react->rt
+---
+Two numbers are represented as linked lists. Both lists are of same length. Add them without manipulating the lists and without a second traversal.
+---
+Add a number to array and if there is carry increase array size.
+----------------------------------------------------------------------
+For example input = {7,3,5,3,9} convert this to number 73539, add 1 so it becomes 73540 and convert to array {7,3,5,4,0}. 
+Array can be of any length, so you can't always represent array in form of in-built number format. So you have to do this summation in-place. Also, how would you increase array size in-case input = {9,9,9} so output = (1,0,0,0}
+
+Assume, all elements of arrays are between 0 and 9.
+---
+Data-structure and algorithm used in Load Balancer??
+
+Explaining algorithm write code for it
+---
+Consider a city with 50 locations each numbered from 0 to 49.  Mr. XYZ runs a taxi service in a city. He has 25 Taxi’s to service the passengers. When passenger needs a taxi he makes a call to Mr. XYZ and give details like his current location as a source, and where he is willing to travel as a destination. He also tells max time he can wait for a taxi. In return Mr. XYZ either allocate a taxi to the passenger or tell him request can’t be satisfied within the given max_waiting time. Allocated taxi travels from its current location to the passengers pick-up point i.e. the source. This travel is termed as non revenue travel. Mr. XYZ charge passenger only for the distance from source to the destination. After dropping passenger to the destination taxi waits for call from Mr. XYZ to serve next passenger.
+Let’s assume we know all TaxiHireRequests in advance. We also know the distance and time to travel between any two locations in the city.
+ 
+
+Write a program which will choose the taxi’s such that sum of non_revenue distance travelled by all the Taxi’s is minimum and the number of unsatisfied requests are minimized. Also print the total non_revenew distance and number of unsatisfied requests.
+ 
+
+pseudo helper structures. 
+struct TaxiHireRequest{
+int Time Of Request;//Number of seconds from 12AM
+int Source; // an int from 0 to 49
+int Destination;// an int from 0 to 49
+int Maximum waiting time // in seconds;
+}[200]
+ 
+
+struct Taxi{
+int location;//an int from 0 to 49
+bool isHired//true or false
+}[25]
+ 
+
+int Distance[50][50];
+int Time[50][50];
+// Extend the structure whenever required.
+---
+Given N dices.Each dice has A faces.That means each dice has numbers from 1 to A.Given Sum S,Find the number of ways to make the sum S if dices are rolled together.
+---
+How do you find the greatest 1000 elements in a list of a million elements? No other information given. What would be the runtime? Hint: You can do better than O(n log n). I didn't realize but it could be possible with Tree or Heaps.
+---
+Flatten a List<List<Integer>> in Java and implement the hasNext() and next() methods.
+e.g. [[6,8],4] should return true when at 6, 8 and false at 4.
+---
+Implementation of Advanced set which have the functionality as "Set" in c++ along with extra functionality-Random number generator.Returns the random number from the set.
+---
+Given a directed acyclic graph.How to represent it in the relational database for efficient retrieval of all the children nodes and all the parents of any node.(ex a->b here b is child of a and a is parent of b)
+---
+Given a string.Find the longest substring in it such that the substring contains only 2 unique characters.Ex- aabbcbbbadef Ans-bbcbbb
+---
+In a party there are n different-flavored cakes of volume V1, V2, V3 ... Vn each. Need to divide them into K people present in the party such that
+ - Each member of party gets equal volume of cake (say V, which is the solution we are looking for)
+ - A given member should get a cake of single flavour only i.e. You cannot distribute parts of different flavored cakes to same member.
+ - Minimum volume of cake gets wasted after distribution so that means a maximum distribution policy
+---
+Write a C program to search for a given pattern from various files in a directory without using grep or any other inbuilt command
+---
+I Got this Crazy Question on PHONE INTERVIEW AT GOOGLE:
+
+Design and implement a class to generate random numbers in an arbitrary probability distribution given by an array of integer weights, i.e. for int[] w return a number, n, from 0 to w.length - 1 with probability w[n] / sum(w). Using an existing random number generator with a uniform distribution is permitted.
+
+Example distribution:
+w = 1, 2, 3, 2, 1
+
+Example probabilities:
+w / sum = 1/9, 2/9, 1/3, 2/9, 1/9
+
+Example results:
+n = 0, 1, 2, 3, 4
+
+Documentation:
+
+Class java.util.Random
+
+public int nextInt(int n)
+
+Returns a pseudorandom, uniformly distributed int value between 0 (inclusive) and the specified value (exclusive), drawn from this random number generator's sequence. The general contract of nextInt is that one int value in the specified range is pseudorandomly generated and returned. All n possible int values are produced with (approximately) equal probability.
+
+Parameters:
+n - the bound on the random number to be returned. Must be positive.
+Returns:
+the next pseudorandom, uniformly distributed int value between 0 (inclusive) and n (exclusive) from this random number generator's sequence
+Throws:
+IllegalArgumentException - if n is not positive
+---
+Find the most frequently occurring element in a BST. In this BST we can have leftnode<=rootnode<=rightnode.
+---
+Write a function which returns kth element from the tail in a linked list.
+---
+Implement Iterator class with peek() functionality in Java.
+---
+You have k lists of sorted integers. Find the smallest range that includes at least one number from each of the k lists.
+
+For example, 
+List 1: [4, 10, 15, 24, 26]
+List 2: [0, 9, 12, 20]
+List 3: [5, 18, 22, 30]
+
+The smallest range here would be [20, 24] as it contains 24 from list 1, 20 from list 2, and 22 from list 3.
+---
+What is the difference between a computers heap and it's stack?
+---
+Blacklist all the nodes in a B-tree, when viewed from all 4 directions.
+---
+Sort a singly-linked list of unknown size using constant space.
+---
+You are trying to to daemonize an unknown, black-box binary executable.  The binary executable returns no output to STDOUT or STDERR.  Assume that the mystery binary return code is non-zero.  What troubleshooting steps might you take to learn more about what the binary is supposed to do, and why it is failing?
+---
+During boot, after the BIOS performs a successful power-on-self-test, describe everything that occurs until the console is presented to the user.
+---
+How do you make sure an API does not leak memory?
+---
+You are given a dictionary, in the form of a file that contains one word per line. E.g.,
+ abacus
+ deltoid
+ gaff
+ giraffe
+ microphone
+ reef
+ qar
+You are also given a collection of letters. E.g., {a, e, f, f, g, i, r, q}.
+The task is to find the longest word in the dictionary that can be spelled with the collection of
+letters. For example, the correct answer for the example values above is “giraffe”. (Note that
+“reef” is not a possible answer, because the set of letters contains only one “e”.)
+---
+Input is a number of words. Construct a listing of valid 6-letter words. You have access to bool IsValid(const string& word);  Implement Insert() and Get() for this listing.
+---
+Escape strings. Convert special ASCII characters to form of ‘\ooo’, where ‘ooo’ is oct digit of the corresponding  special character. 
+The ascii characters that smaller than space are regarded as special characters.
+---
+Return a shortest prefix of <code>word</code> that is <em>not</em> a prefix of any word in the <code>list</code>
+
+e.g. 
+word: cat, it has 4 prefixes: “”, “c”, “ca”, “cat”
+list: alpha, beta, cotton, delta, camera   
+Result is “cat”
+---
+Suppose we use binary search tree to implement set, design an algorithm that we can get an random element from the set, while            maintain all the other set operations have same complexities.
+---
+There is an island which is represented by square matrix NxN. 
+A person on the island is standing at any given co-ordinates (x,y). He can move in any direction one step right, left, up, down on the island. If he steps outside the island, he dies.
+
+Let island is represented as (0,0) to (N-1,N-1) (i.e NxN matrix) & person is standing at given co-ordinates (x,y). He is allowed to move n steps on the island (along the matrix). What is the probability that he is alive after he walks n steps on the island?
+
+Write a psuedocode & then full code for function
+ " float probabilityofalive(int x,int y, int n) ".
+---
+(END OF PAGE 16)
+---
+Given the English alphabet, 'a' through 'z' (lowercase), and an imaginary onscreen keyboard with the letters laid out in 6 rows and 5 columns:
+---
+
+---
+
+---
+Using a remote control - (up - 'u', down 'd', left 'l', right 'r' and enter '!'), write a function that given a word will produce the sequence of key presses required to type out the word on the onscreen keyboard. The function should return the sequence string.
+
+NOTE: This was an actual question. I didn't pull this from TopCoder.
+---
+given sorted int[] A, int[] B. How would you find the maiden that would have been if both were combined to one big sorted array? Use divide and conqure recurssion.
+please write method "GetMutualMaiden" and explaint it's time and space complexity
+---
+Sort the input character array based on the dictionary given.
+
+For eg:, If input word is “SHEEP“, sorting will make it as “EEHPS“.
+
+But in the dictionary, E may not be at first. As per the dictionary, if P is first, S followed and E later and finally H.
+
+Then sorted array is “PSEEH“.
+---
+how would you implement a secondary sorting. Meaning sorting by Category A, and then sub sorting by category B?
+---
+Given an array A of N integers, we draw N discs in a 2D plane such that the I-th disc is centered on (0,I) and has a radius of A[I]. We say that the J-th disc and K-th disc intersect if J ≠ K and J-th and K-th discs have at least one common point.
+Write a function:
+int number_of_disc_intersections(int A[], int N);
+that, given an array A describing N discs as explained above, returns the number of pairs of intersecting discs. For example, given N=6 and:
+A[0] = 1  A[1] = 5  A[2] = 2 
+A[3] = 1  A[4] = 4  A[5] = 0  
+intersecting discs appear in eleven pairs of elements:
+0 and 1,
+0 and 2,
+0 and 4,
+1 and 2,
+1 and 3,
+1 and 4,
+1 and 5,
+2 and 3,
+2 and 4,
+3 and 4,
+4 and 5.
+so the function should return 11.
+The function should return −1 if the number of intersecting pairs exceeds 10,000,000.
+Assume that:
+N is an integer within the range [0..10,000,000];
+each element of array A is an integer within the range [0..2147483647].
+Complexity:
+expected worst-case time complexity is O(N*log(N));
+expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
+Elements of input arrays can be modified.
+---
+Write a method that generates a random sequence of numbers of specific percentages
+---
+The diameter of a tree is the number of nodes on the longest path between two leaves in the tree. The diagram below shows a tree with diameter nine, the leaves that form the ends of a longest path are shaded (note that there is more than one path in each tree of length nine, but no path longer than nine nodes).  
+
+In particular, note that the diameter of a tree T is the largest of the following quantities:
+
+the diameter of T's left subtree
+the diameter of T's right subtree
+the longest path between leaves that goes through the root of T 
+Given the root node of the tree, return the diameter of the tree
+---
+write the most efficient (in terms of time complexity) function getNumberOfPrimes which takes in an integer N as its parameter. 
+
+to return the number of prime numbers that are less than N
+
+Sample Testcases:
+Input #00:
+100
+Output #00:
+25
+
+Input #01:
+1000000
+Output #01:
+78498
+---
+longest common subsequnce: given two lists, find the longest sublist (in order) that is the same
+---
+enumurate all phone numbers by the digit dial on the phone keypad
+---
+Given a string and a dictionary. Break the string into meaningful words.
+---
+write a function to sum two single linked lists that represents binaries numbers
+---
+explain and write algorithm that implements and infinite binary counter, where add() takes O(1) time complexity
+---
+Implement a set that supports insert, remove and getRandomElement() operations.
+---
+Write a function that gets a billion integers. How can you find the midian in most efficient way (time)?
+
+same question, but the input is an endless stream of integers, and we want to find the current median.
+---
+given a maze (matrix bool[N][M]) where 0 = free way, 1= obsticle - How many ways are there to reach from [0][0] to [N][M]? write a non-recursive solution.
+---
+Design a web browser like Chrome with the tab functionality. 
+Also describe the data structure to be used.
+---
+Pots of gold game: Two players A & B. There are pots of gold arranged in a line, each containing some gold coins (the players can see how many coins are there in each gold pot - perfect information). They get alternating turns in which the player can pick a pot from one of the ends of the line. The winner is the player which has a higher number of coins at the end. The objective is to "maximize" the number of coins collected by A, assuming B also plays optimally. A starts the game.
+
+The idea is to find an optimal strategy that makes A win knowing that B is playing optimally as well. How would you do that? 
+
+At the end I was asked to code this strategy!
+---
+Implement in OOP the old cell-phones game "snake". Implement the function "MoveUp". Follow up: how would you reduce space complexity?
+---
+give examples of hash functions that maps english word to byte
+---
+how would you store and find the top 10 queries in google from some day (when you begin to count) till a certain date?
+---
+Imagine you have a sequence of the form 0123456789101112131415... where each digit is in a position, for example the digit in the position 5 is 5, in the position 13 is 1, in the position 19 is 4, etc.
+
+Write a function that given a position returns the digit in that position.
+
+(You could think that this sequence is an array where each cell only holds one digit so given an index return what digit is in that index, however you cannot really create an array since the sequence is infinite, you need a way to based on the index calculate the digit that goes there).
+
+The function has to return a single digit.
+
+Other examples:
+
+index = 100, result = 5
+index = 30, result = 2
+index = 31, result = 0
+index = 1000, result = 3
+---
+Write the following function
+void drawLine(byte[] img, int len, int wid, int r, int x1, int x2)
+such that you draw a line from x1 to x2 at row r.
+len is the length and wid is the width of the image/canvas.
+Setting a pixel on to draw the line is to set the corresponding bit on the img array
+Each byte corresponds to 8 pixels, that is each pixel is a bit in the array
+---
+You are given a list of a million (x, y) map co-ordinates of restaurants on a Tape disk. You are also given what your co-ordinate is (a, b) .
+You are required to give out the nearest restaurant in terms of distance. You are free to assume that the distance is measured on a straight line basis (bee-line).
+You cannot hold all the million data simultaneously, and design an efficient data structure to complete this task.
+---
+Given a BST and a value x. Find two nodes in the tree whose sum is equal x. Additional space: O(height of the tree). It is not allowed to modify the tree
+---
+Three coke machines. Each one has two values min & max, which means if you get coke from this machine it will load you a random volume in the range [min, max]. Given a cup size n and minimum soda volume m, show if it's possible to make it from these machines.
+---
+Flip a monochrome bitmap around its centre-line, where input is: char *bytes, int width, int height .
+
+Example:
+Input
+0101 0110
+1111 0011
+
+Output
+0110 1010
+1100 1111
+---
+What is the Minimum Amount not possible using an infinite supply of coins (Unbounded knapsack)
+
+You are given coins of 
+Denominations {v1, v2 , v3, v4 ....vn } of weight {w1, w2, w3 .....wn}
+
+Now that you have a bag of capacity W .
+Find the smallest Value V that is not possible to have in the bag.
+(Note , you are not trying to maximize the value V)
+---
+Given a very very very large integer(with 1 million digits, say), how would you convert this integer to an ASCII string
+---
+Write a long running program in C. This program should not hog the CPU, use no sleep()/block()/select()/wait(), should not block resources...and should terminate after a very very very long time
+---
+C++ class animal has virtual method render which prints “Animal” while its subclass Tiger has virtual method render which prints “Tiger”. Tiger kitty;; Animal * beast = &kitty; what is the outcome of beast->render()?
+---
+If a key has to be inserted in binary tree, say the value of root as well as the key to be inserted as same. Will the key becomes left child or right child of Root? Can binary tree have duplicate values? If yes, why, If no why?
+---
+From the set of natural integer numbers
+Let x = 1234 = {1, 2, 3, 4}
+Let y = 2410 = {2, 4, 1, 0}
+
+Write an algorithm to compute the rearrangement of x that is closest to y but still greater than y. Both x and y have the same number of digits.
+
+So in the example above, the answer would be { 2, 4, 1, 3 } = 2413 which is greater than y = 2410 and closer than any other arrangements of x.
+
+And whats the time complexity of this algorithm?
+---
+String getSentence(String text, Set<String> dictionary);
+
+// text is a string without spaces, you need to insert spaces into text, so each word seperated by the space in the resulting string exists in the dictionary, return the resulting string
+
+// running time has to be at least as good as O(n)
+
+// getSentence("iamastudentfromwaterloo", {"from, "waterloo", "hi", "am", "yes", "i", "a", "student"}) -> "i am a student from waterloo"
+---
+Given a array of integers , find 3 indexes i,j,k such that, i<j<k and  a[i] < a[j] < a[k]. Best possible is a O(n) algorithm.
+---
+Write a function to determine node in a tree at maximum depth , with ties to the right ( ties to the right means , right most node at MaxDepth D )
+---
+You are given an array of n elements [1,2,....n]. For example {3,2,1,6,7,4,5}.
+Now we create a signature of this array by comparing every consecutive pir of elements. If they increase, write I else write D. For example for the above array, the signature would be "DDIIDI". The signature thus has a length of N-1. Now the question is given a signature, compute the lexicographically smallest permutation of [1,2,....n]. Write the below function in language of your choice.
+
+vector* FindPermute(const string& signature);
+---
+Write a program which makes use of two classes named integer and character. The class integer has one integer data
+member lying in the private section and one member function named input lying in the protected section.The member
+function input is used to enter the data in the data member.The class character publically inherits from the class
+integer.The class character has one character data member and two member functions named calc and display.The calc
+function ask the user to input data in the character data member which will be a number from 1-9.The calc function will
+divide the integer number (Data member of the class integer) entered earlier with the number entered in the character
+and the display function will display the message “Divides Completely” in the case the integer is divided completet and
+the message “Does not divide” otherwise.The ASCII values of numbers 0-9 range from 48-57.Eg. run is as follows:
+Enter Integer:10
+Enter Character :2
+Result: Divides completely.
+---
+Write a program which contains a class named String (please take care of the case). The class should be capable of
+holding a string containing more than one word. The class should at least have a parametric constructors by which we
+are going to supply a sentence at run time. Class string should be defined in this way that the following statement
+should be executed with their proper output.
+String str1; //string with length 0
+String str2;
+cin>>str2; // to print the char elements of str2;
+(Don’t use any string library function for the any purpose)
+You are free to add any C++ concepts, any other data members, member functions and constructors you think are
+necessary to solve the problem.
+---
+Write a program which contains a class named String (please take care of the case). The class should be capable of
+holding a string containing more than one word. The class should at least have a parametric constructor by which we
+are going to supply a sentence at run time. The class should contain a member function ‘palindromecheck()’which
+reverses the words of the sentence in their proper original order. The class String should be user defined. You are free
+to add any other data members, member functions and constructors you think are necessary to solve the problem.
+Sample Run:-
+Enter sentence:-
+Mom…nothing can be better than you
+Output:-
+Sentence with reversed words is:-
+you than better be can nothing …moM
+Not Palindrome
+Sample Run:-
+Enter sentence:-
+wife loves husband,husband loves wife
+Output:-
+Sentence with reversed words is:-
+wife loves husband,husband loves wife.
+Palindrome
+You are free to add any C++ concepts, any other data members, member functions and constructors you think are
+necessary to solve the problem.
+---
+Design a web counter to give how many hits per second, per minute and per hour (i.e., what kind of data structure and algorithm would you use to do this?).
+---
+Given a matrix represented as int[n][n], rotate it 90 degrees clockwise in-place. (In-place means minimal extra memory to be used, ie, don't make a new array to copy into). Rotate clockwise means top-row becomes right-column, right column becomes bottom-row etc.
+---
+How do you sort a billion rows of data of integers (a few gigabytes) in a file with only 1024KB of main memory.
+---
+compare "write through cache" and "look aside cache"
+---
+assume that dictionary has only 5 words...
+APPLE,APE,BABY,BALL,CAT
+write a program which will accept a string and list all possible words in the dictionary which start with that string.use binary trees for fast retreival in java
+---
+implement adding two unsigned numbers without using "+" or "++"
+---
+Given a matrix with 1's and 0's, find the number of groups of 1's. A group is defined by horiz/vertically adjacent 1's.
+---
+Write a program to determine whether n/2 distintinctve pairs can be formed from given n integers where n is even and each pair's sum is divisible by given k. Numbers cannot be repeated in the pairs, that means only you can form total n/2 pairs.
+---
+Given 2 arrays A,B, where x(A.length) < y(B.length), we want to
+insert (y - x) 0's to A at various places such that A*B is minimum. For instance, if A = (1, -1) and
+B = (1,2, 3, 4), then inserting two 0's in the middle of A such that A = (1, 0, 0, -1) would minimize
+A*B. I think he was looking for a dynamic problem solution.
+---
+Write a program to count the number of uni-value sub-trees in a given tree. Explain reasoning, and implementation decisions.
+---
+Design a system similar to how tinyurl.com website works. Scalability, reliability etc. parameters should be stressed upon.
+---
+The maximum suffix of a string is the lexicographically largest suffix of the string. The maximum
+suffix problem is to find the maximum suffix of a given string. Linear time algorithm required.
+---
+You are given n dices each with heads numbered from 1 to m. You are to throw the n dices and note down the sum of the numbers on each of the n dices. You'll be give a number x and its a win if the sum obtained is greater than x. The problem is the find out the winning probability given n, m and x. 
+
+Note 1<=n<=100,
+1<=m<=10,
+m<=x<=n*m.
+---
+Generate a number is range (1,n) but not in a list (i,j)
+
+for example range is (1,1000), list is [2,3,5,9,199,200,344]
+---
+Given a number represented as an array of digits, plus one to the number.
+ie.   1000 is [1,0,0,0]  result is [1,0,0,1]
+---
+How to check num is power of 2?
+---
+Given a BST, maximum and minimum value, find the sum of nodes with values between the above range
+---
+Write the code to find lexicographic minimum in a circular array, e.g. for the array
+BCABDADAB, the lexicographic mininum is ABBCABDAD
+---
+Write an algorithm to find the ‘next’ node (e.g., in-order successor) of a given node in a binary search tree where each node has a link to its parent.
+---
+Given a n*n grid map that is parallel with x, y axis, the down left point is (0,0),the up right point is (n,n). Given n rectangles, the down left point and up right point are (x1,y1)(x1',y1'),..., (xn,yn)(xn',yn'). xn,yn,xn',yn',n are non-negative integers, and all rectangles are parallel with axis. Design a query which return, for a specific grid unit (x,y)(x+1,y+1), how many rectangles cover it? Minimize the time complexity of  the query and the pre-processing. 1<n<1000
+---
+Given tree integers a, b,c. Write a function: int median (int a,int b,int c) to get the median number among a,b,c. Can not use sort, the times of integer operations (e.g. compare, + - * /, bit computing) the less the better.  Analyze the best and the worst situation.
+---
+Given a file of N bytes. Find a sub-string of minimal length that is not present in the file.
+---
+Given an N x M matrix having only positive values, we have to nullify the matrix i.e make all entries 0.
+We are given two operations
+1) multiply each element of any one column at a time by 2.
+2) Subtract 1 from all elements of any one row at a time
+
+Find the minimum number of operations required to nullify the matrix.
+Note: no range of input was given
+---
+What could cause a test case run on the same piece of code to pass sometimes and fail sometimes?
+---
+suppose a structure :
+struct item
+---
+
+---
+
+---
+;
+
+if there is a server running on little endian 64bit machine and a client running on big endian 32bit machine how will client send the structure to server so that the problem of portability, endianness, and alignment does not arise?
+
+client :
+sendto(sd,(void *)&myitem, sizeof(item), 0, (struct sockaddr *) &server_addr, sizeof(server_addr));
+ server:
+
+recvfrom();
+---
+If you're given a list of countries and its corresponding population, write a function that will return a random country but the higher the population of the country, the more likely it is to be picked at random.
+---
+Write an algorithm to insert a new value into a circular sorted linked list.
+---
+Interview Question – how to improve a parallel cache, this is the most difficult question i got. I had no idea what the interviewer meant and he clearly had some 'right' answer in his mind, but no clue.
+---
+How would you store 1 million phone numbers?
+---
+Count the number of set bits for an 32 bits integer. How to improve the process for the second time use if the memory is unlimited?
+---
+On a 2-D grid, the positions (x,y) of 3 persons are given. Find the meeting point such that sum of distances of each person from meeting point is minimized.
+Now generalize this to N persons and solve.
+---
+Given an array of intergers. Write a program to print all the permutations of the numbers in the array. The output should be sorted in a non-increasing order. For example for the array { 12, 4, 66, 8, 9}, the output should be:
+
+9866412
+
+9866124
+
+9846612
+
+....
+
+....
+
+1246689
+---
+Three strings say A,B,C are given to you. Check weather 3rd string is interleaved from string A and B.
+       Ex: A="abcd" B="xyz" C="axybczd". answer is yes. o(n)
+---
+I have 1 million queries on disk to sort, my local memory/catch can store up to 1 thousand queries, how can I perform sort?
+---
+Given a line, adjust this line to the page width.
+
+For example, given "Dog is cute" (length of chars is 11) and the page width is 15, adjust the line to "Dog   is   cute". The extra spaces should be distributed as much even as possible. Assume there is no space before the first word or after the last word.
+---
+how will you test if the random number generator is generating actual random numbers
+---
+if an array is given like 11
+increment its value to 1
+o\p should be 12
+
+if the array has 99
+o\p should be 100
+
+you can use vectors.
+---
+given input
+i\p : [1,2] [2,3] [3,4]
+i\p: 2,3
+
+o\p should be: [1,2] [2,4]
+---
+given an array of integers generate out put using product of N-1.
+eg: if input is 1,2,3,4
+output will be each product of other int in the array : eg: 2*3*4 , 1*3*4 ,1*2*4 , 1*2*3
+
+solve in N not in N2 algo.
+---
+given an array of sorted integers with duplicate values , sort the array so that there are only unique values left in sorted order ( do not use any additional data type , do inplace sort )
+---
+Given a list of strings & string M28K,  where M28K represents a string which starts from M , ends with K and has 28chars in between . Find if M28K is unique in the list of strings or not?
+---
+Given a circular single linked list.Write a program that deletes every kth node until only one node is left.
+After kth node is deleted, start the procedure from (k+1)th node.
+e.g.list is 1->2->3->4->5->1
+k=3
+1. You are at 1, delete 3.
+List is: 1->2->4->5->1
+2. You are at 4, delete 1
+List is: 2->4->5->2
+3. You are at 2,delete 5
+List is: 2->4->2
+4. You are at 2, delete 2
+List is: 4
+Return 4.
+
+How efficient you can do it?
+---
+"Min(Max elements rows) not less than Max(Min of columns)"
+can you tell me whether above statement ist true or false..
+if it true, then tell me solutoin.
+if it false, then tell me example
+---
+Implement rotate function for forward-only iterators.
+
+Clarification: with O(1) additional memory. Rotate semantics should be that of std::rotate.
+
+I personally know a O(n*log(n)) solution which takes O(log(n)) extra memory, and I assume it should be possible to reduce memory costs to O(1).
+---
+Given preorder traversal array of a BST, recontruct the BST.
+---
+Given API:
+int Read4096(char* buf);
+It reads data from a file and records the position so that the next time when it is called it read the next 4k chars (or the rest of the file, whichever is smaller) from the file.
+The return is the number of chars read.
+
+Todo: Use above API to Implement API
+"int Read(char* buf, int n)" which reads any number of chars from the file.
+---
+Given a series of numbers as the input, the last one as the result. Use the rest numbers to calculate the result,only +, -, *, / are allowed. The order of the input cannot be changed. If there is an equation, print it; or print "no equation". If more than one solution, any working equation is fine.  
+
+example:
+input: 2, 3, 1, 4
+output: 2+3-1 = 4.
+---
+Implement the plusplus operator when we are getting the input as integer array = { 9,9,9,9 }.output will be {1,0,0,0,0}
+---
+Write a data structure to capture long datatype? That means this data structure will keep more them 1000 or million digits.
+---
+Given two strings .Print all the interleavings of the two strings.
+Interleaving means that the if B comes after A .It should also come after A in the interleaved string.
+ex-
+AB  and CD
+ABCD
+ACBD
+ACDB
+CABD
+CADB
+CDAB
+---
+(END OF PAGE 20)
+---
